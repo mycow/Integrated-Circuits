@@ -1,0 +1,14 @@
+* ELDO netlist generated with ICnet by 'rguyol' on Sat May 11 2013 at 09:58:44
+
+*
+* Globals.
+*
+.global vdd ground
+
+*
+* MAIN CELL: Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+        m2 out in vdd vdd P L=0.4u W=3.6u M=1
+        m1 out in ground ground N L=0.4u W=1.2u M=1
+*
+.end

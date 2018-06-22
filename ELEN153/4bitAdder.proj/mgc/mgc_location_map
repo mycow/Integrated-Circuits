@@ -1,0 +1,34 @@
+# NOTE: This library list was created by ICstudio.
+# Changes made manually will be lost.
+
+MGC_LOCATION_MAP_2
+
+$MGC_IC_GENERIC_LIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/generic_lib
+
+$MGC_IC_DEVICE_LIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/device_lib
+
+$MGC_IC_SOURCES_LIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/sources_lib
+
+$MGC_IC_VERILOG_LIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_verilog
+
+$MGC_IC_COMMLIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_commlib
+
+$MGC_IC_COMMLIB_QS -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_qs
+
+$MGC_IC_COMMLIB_RF -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_rf
+
+$MGC_MACROLIB -t LIBRARY
+/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_macrolib
+
+$MGC_DESIGN_KIT -t LIBRARY
+/opt/mentor-2008.1/adk3_1
+
+$UpdatedFiles -t LIBRARY
+/home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib

@@ -1,0 +1,238 @@
+
+
+Check Schematic  "XOR/schematic/sheet1"
+Check Sheet "XOR/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Could not determine current version of inverter/part for instance I$5
+  Error:  Could not determine current version of inverter/part for instance I$5
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "XOR/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "XOR/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Schematic  "Full-Adder/schematic/sheet1"
+Check Sheet "Full-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 1 of symbol "Half-Adder"
+         is not the most current (2) for instance:  I$2
+  Error:  Out of date reference;  Version 1 of symbol "Half-Adder"
+         is not the most current (2) for instance:  I$3
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "Full-Adder/schematic/sheet1"
+Check Sheet "Full-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 1 of symbol "Half-Adder"
+         is not the most current (2) for instance:  I$2
+  Error:  Out of date reference;  Version 1 of symbol "Half-Adder"
+         is not the most current (2) for instance:  I$3
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "4-Bit-Adder/schematic/sheet1"
+Check Sheet "4-Bit-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   4 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 1 of symbol "Full-Adder"
+         is not the most current (2) for instance:  I$4
+  Error:  Out of date reference;  Version 1 of symbol "Full-Adder"
+         is not the most current (2) for instance:  I$3
+  Error:  Out of date reference;  Version 1 of symbol "Full-Adder"
+         is not the most current (2) for instance:  I$1
+  Error:  Out of date reference;  Version 1 of symbol "Full-Adder"
+         is not the most current (2) for instance:  I$2
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "4-Bit-Adder/schematic/sheet1" failed check :  4 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "4-Bit-Adder/schematic/sheet1" failed check :  4 Errors, 0 Warnings
+
+
+Check Schematic  "Full-Adder/schematic/sheet1"
+Check Sheet "Full-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$6
+            other:     I$9
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$9
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$10
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "Full-Adder/schematic/sheet1"
+Check Sheet "Full-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$6
+            other:     I$9
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$9
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$10
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "Full-Adder/schematic/sheet1"
+Check Sheet "Full-Adder/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$6
+            other:     I$9
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$9
+  Error:  Out of date reference;  Version 2 of symbol "Half-Adder"
+         is not the most current (3) for instance:  I$10
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "Full-Adder/schematic/sheet1" failed check :  2 Errors, 1 Warnings

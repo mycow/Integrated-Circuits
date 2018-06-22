@@ -1,0 +1,147 @@
+
+Running eldo on linux60810
+
+with Eldo libraries :
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoudm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos1_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoekv_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomosp9_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldocsem_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos2_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos3_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobip_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldodio_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldojfet_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldosoi_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos4_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoasitft_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldohisim_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldospmod_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldopsp_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomoto_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldost_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobnr_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldorockw_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldopubhicum_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldotftsh_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobta_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldofas_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldofascm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldova_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldovafnc_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldosdsim_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoudrm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldowire_64.so
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 4769851
+129 elements
+69 nodes 
+9 input signals
+
+Eldo VERSION : ELDO v6.10_3.1 Production(64 bits) Fri Jun 13 08:13:19 GMT 2008
+
+*** DATE: 24-Oct-2016 18:47:38
+
+*** TITLE: * Component: $UpdatedFiles/default.group/logic.views/Test_Schematic  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:7 iterations FOR DC analysis
+
+   TOTAL POWER DISSIPATION:  1.2288N     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost linux60810.dc.engr.scu.edu -jwdbport 35915
+
+Compute from 0.000000 Nano to 600.000000 Nano
+................................................
+Simulation progress           : 10%
+Elapsed CPU time              : 0h 0mn 0s 40
+................................................
+Simulation progress           : 20%
+Elapsed CPU time              : 0h 0mn 0s 80
+................................................
+Simulation progress           : 30%
+Elapsed CPU time              : 0h 0mn 0s 110
+................................................
+Simulation progress           : 40%
+Elapsed CPU time              : 0h 0mn 0s 150
+................................................
+Simulation progress           : 50%
+Elapsed CPU time              : 0h 0mn 0s 180
+................................................
+Simulation progress           : 60%
+Elapsed CPU time              : 0h 0mn 0s 240
+................................................
+Simulation progress           : 70%
+Elapsed CPU time              : 0h 0mn 0s 270
+................................................
+Simulation progress           : 80%
+Elapsed CPU time              : 0h 0mn 0s 310
+................................................
+Simulation progress           : 90%
+Elapsed CPU time              : 0h 0mn 0s 350
+................................................
+Simulation progress           : 100%
+Elapsed CPU time              : 0h 0mn 0s 350
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 6059998
+Latency: 0.000000%
+average number of newton iterations: 2.947690
+nb of components: 369
+nb of nodes: 309
+nb of MOS or BIP calls: 72512
+Number of steps computed: 1112
+
+***>CPU TIME 0s 360ms <***
+
+
+***>GLOBAL CPU TIME 0s 390ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

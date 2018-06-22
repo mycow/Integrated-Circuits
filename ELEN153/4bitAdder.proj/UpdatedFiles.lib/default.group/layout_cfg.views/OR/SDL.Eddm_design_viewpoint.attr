@@ -1,0 +1,15 @@
+A 5 u Eddm_design_viewpoint 519021b60b87.03.81.d2.10.4c.00.13.0b 1 2 7 0
+V v 1 4 519021b60b87.03.81.d2.10.4c.01.13.0b
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 2 Eddm_part 4fa997204e2c.03.81.d2.10.92.00.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/OR/schematic" 2 mgc_schematic 4fa996ffe784.03.81.d2.10.92.00.57.b0 518d96200d23.03.81.d2.10.8f.00.54.ba
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/OR/OR" 1 mgc_symbol 4fa9972044fd.03.81.d2.10.92.01.57.b0 518d96200ba0.03.81.d2.10.8f.00.54.ba
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 5 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b
+R cspuv 6 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b

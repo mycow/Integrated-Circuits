@@ -1,0 +1,8 @@
+* Component: $UpdatedFiles/default.group/logic.views/AND  Viewpoint: eldonet
+.INCLUDE AND_eldonet.spi
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

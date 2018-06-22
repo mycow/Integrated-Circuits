@@ -1,0 +1,161 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground ground
+   VDD VDD
+End Globals
+
+Cell nmos_4pin
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell pmos_4pin
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell AND
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$6 N$6
+   Net N$4 N$4
+   Net B B
+   Net A A
+   Net OUT OUT
+   Global ground ground
+   Global VDD VDD
+   Inst M1 M1 nmos_4pin
+   Inst M3 M3 nmos_4pin
+   Inst M5 M5 nmos_4pin
+   Inst M4 M4 pmos_4pin
+   Inst M6 M6 pmos_4pin
+   Inst M2 M2 pmos_4pin
+End Cell
+
+Cell inverter
+   Pin OUT OUT
+   Pin IN IN
+   Net OUT OUT
+   Net IN IN
+   Global VDD VDD
+   Global ground ground
+   Inst M2 M2 pmos_4pin
+   Inst M1 M1 nmos_4pin
+End Cell
+
+Cell 153_XOR
+   Pin XOR XOR
+   Pin A A
+   Pin B B
+   Net N$3 N$3
+   Net N$2 N$2
+   Net XOR XOR
+   Net B B
+   Net A A
+   Global VDD VDD
+   Global ground ground
+   Inst INVERTER1 X_INVERTER1 inverter
+   Inst M2 M2 nmos_4pin
+   Inst M4 M4 nmos_4pin
+   Inst M3 M3 pmos_4pin
+   Inst M1 M1 pmos_4pin
+End Cell
+
+Cell HalfAdder
+   Pin C C
+   Pin S S
+   Pin X X
+   Pin Y Y
+   Net C C
+   Net S S
+   Net Y Y
+   Net X X
+   Inst AND1 X_AND1 AND
+   Inst 153_XOR1 X_153_XOR1 153_XOR
+End Cell
+
+Cell OR
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$12 N$12
+   Net N$8 N$8
+   Net A A
+   Net B B
+   Net OUT OUT
+   Global ground ground
+   Global VDD VDD
+   Inst M3 M3 nmos_4pin
+   Inst M1 M1 nmos_4pin
+   Inst M6 M6 pmos_4pin
+   Inst M5 M5 nmos_4pin
+   Inst M4 M4 pmos_4pin
+   Inst M2 M2 pmos_4pin
+End Cell
+
+Cell FullAdder
+   Pin Cout Cout
+   Pin Sout Sout
+   Pin Cin Cin
+   Pin Xin Xin
+   Pin Yin Yin
+   Net N$426 N$426
+   Net N$3 N$3
+   Net N$2 N$2
+   Net Cin Cin
+   Net Cout Cout
+   Net Sout Sout
+   Net Yin Yin
+   Net Xin Xin
+   Inst HALFADDER1 X_HALFADDER1 HalfAdder
+   Inst HALFADDER2 X_HALFADDER2 HalfAdder
+   Inst OR1 X_OR1 OR
+End Cell
+
+Cell #top#
+   Pin Cout Cout
+   Pin S0 S0
+   Pin S1 S1
+   Pin S2 S2
+   Pin S3 S3
+   Pin Cin Cin
+   Pin X0 X0
+   Pin X1 X1
+   Pin X2 X2
+   Pin X3 X3
+   Pin Y0 Y0
+   Pin Y1 Y1
+   Pin Y2 Y2
+   Pin Y3 Y3
+   Net N$662 N$662
+   Net N$650 N$650
+   Net N$646 N$646
+   Net Cout Cout
+   Net S3 S3
+   Net S2 S2
+   Net S1 S1
+   Net S0 S0
+   Net Cin Cin
+   Net Y3 Y3
+   Net X3 X3
+   Net Y2 Y2
+   Net X2 X2
+   Net Y1 Y1
+   Net X1 X1
+   Net Y0 Y0
+   Net X0 X0
+   Inst FULLADDER1 X_FULLADDER1 FullAdder
+   Inst FULLADDER3 X_FULLADDER3 FullAdder
+   Inst FULLADDER2 X_FULLADDER2 FullAdder
+   Inst FULLADDER4 X_FULLADDER4 FullAdder
+End Cell
+

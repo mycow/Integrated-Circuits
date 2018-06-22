@@ -1,0 +1,7 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/inverter/inverter.improved.cal
+*drcLayoutPaths: inverter.improved.calibre.gds
+*drcLayoutPrimary: inverter.improved
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: inverter.improved.drc.results
+*drcSummaryFile: inverter.improved.drc.summary

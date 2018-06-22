@@ -1,0 +1,39 @@
+//###########################################################
+//# ELDO v6.10_3.1 Production(64 bits) - Saved Window File
+//# Released Fri Jun 13 08:13:19 GMT 2008
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+
+// ===== Open new window =====
+OPEn WIndow -POSition 0 0 -MAXimized
+
+// ===== Create row #1 =====
+ADD WAveform  <Test_Schematic_eldonet/TRAN>V(COUT) 
+ADD WAveform -Row 1 <Test_Schematic_eldonet/TRAN>V(S3) 
+ADD WAveform -Row 1 <Test_Schematic_eldonet/TRAN>V(S2) 
+ADD WAveform -Row 1 <Test_Schematic_eldonet/TRAN>V(S1) 
+ADD WAveform -Row 1 <Test_Schematic_eldonet/TRAN>V(S0) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 1 -zerolevel on
+
+// ===== Create row #2 =====
+ADD WAveform  <Test_Schematic_eldonet/TRAN>V(N$212) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$207) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$211) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$205) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$210) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$213) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$209) 
+ADD WAveform -Row 2 <Test_Schematic_eldonet/TRAN>V(N$202) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 2 -zerolevel on
+
+// ===== Format rows =====
+SET ROw Height -All -MAX

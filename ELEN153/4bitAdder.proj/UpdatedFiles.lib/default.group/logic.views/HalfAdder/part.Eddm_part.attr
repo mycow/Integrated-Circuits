@@ -1,0 +1,21 @@
+A 5 u Eddm_part 5817e998ad53.03.81.d2.10.4c.00.34.53 3 2 2 0
+V v 1 1 580ea726e301.03.81.d2.10.50.01.47.d4
+F f 1 "part.part_1"
+V v 2 1 580ea76c81f3.03.81.d2.10.50.00.47.d4
+F f 2 "part.part_2"
+V v 3 1 5817e99aa9eb.03.81.d2.10.4c.00.4a.e0
+F f 3 "part.part_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 580ea57f96c0.03.81.d2.10.50.01.47.d4 5817e998ad1b.03.81.d2.10.4c.00.34.53
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/HalfAdder" 1 mgc_symbol 580ea76c7524.03.81.d2.10.50.01.47.d4 5817e998ada5.03.81.d2.10.4c.00.34.53
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 580ea57f96c0.03.81.d2.10.50.01.47.d4 5817e998ad1b.03.81.d2.10.4c.00.34.53
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/HalfAdder" 1 mgc_symbol 580ea76c7524.03.81.d2.10.50.01.47.d4 5817e998ada5.03.81.d2.10.4c.00.34.53
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 580ea57f96c0.03.81.d2.10.50.01.47.d4 5817e998ad1b.03.81.d2.10.4c.00.34.53
+P "eddm__refer_state" "eddm__refer_floating"

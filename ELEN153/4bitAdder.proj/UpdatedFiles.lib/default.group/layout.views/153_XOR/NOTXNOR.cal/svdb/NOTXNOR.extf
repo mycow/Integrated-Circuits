@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtRunTimes 1307348988 1307348989
+lvs_ExtOutFile RUNDIR /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal
+lvs_ExtOutFile LAYOUT_NETLIST /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

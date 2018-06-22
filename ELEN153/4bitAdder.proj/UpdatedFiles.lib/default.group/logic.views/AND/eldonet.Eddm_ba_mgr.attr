@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 518d8930b3b4.03.81.d2.10.8f.00.38.0d 1 2 1 0
+V v 1 1 4fa98caf0a3d.03.81.d2.10.92.01.38.39
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/AND/eldonet" 1 Eddm_design_viewpoint 4fa98cae6d55.03.81.d2.10.92.01.38.39 518d8930b3d0.03.81.d2.10.8f.00.38.0d

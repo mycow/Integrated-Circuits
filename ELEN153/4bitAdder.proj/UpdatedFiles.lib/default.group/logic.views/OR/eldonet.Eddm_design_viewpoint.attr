@@ -1,0 +1,35 @@
+A 5 u Eddm_design_viewpoint 518d96200bd1.03.81.d2.10.8f.00.54.ba 3 2 15 0
+V v 1 4 4fa9970df0a0.03.81.d2.10.92.00.57.b0
+F f 1 "eldonet.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 4fa9970f01a6.03.81.d2.10.92.00.57.b0
+F f 2 "eldonet.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 4fa997114fa8.03.81.d2.10.92.00.57.b0
+F f 3 "eldonet.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 1 Eddm_part 4fa996ff0c93.03.81.d2.10.92.01.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/OR/schematic" 2 mgc_schematic 4fa996ffe784.03.81.d2.10.92.00.57.b0 518d96200d23.03.81.d2.10.8f.00.54.ba
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/OR/eldonet" 1 Eddm_ba_mgr 4fa9970e0919.03.81.d2.10.92.01.57.b0 518d96200cc8.03.81.d2.10.8f.00.54.ba
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 1 Eddm_part 4fa996ff0c93.03.81.d2.10.92.01.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/OR/schematic" 1 mgc_schematic 4fa995801185.03.81.d2.10.92.01.57.b0 518d96200d23.03.81.d2.10.8f.00.54.ba
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/OR/eldonet" 1 Eddm_ba_mgr 4fa9970e0919.03.81.d2.10.92.01.57.b0 518d96200cc8.03.81.d2.10.8f.00.54.ba
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 1 Eddm_part 4fa996ff0c93.03.81.d2.10.92.01.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/OR/schematic" 1 mgc_schematic 4fa995801185.03.81.d2.10.92.01.57.b0 518d96200d23.03.81.d2.10.8f.00.54.ba
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/OR/eldonet" 1 Eddm_ba_mgr 4fa9970e0919.03.81.d2.10.92.01.57.b0 518d96200cc8.03.81.d2.10.8f.00.54.ba

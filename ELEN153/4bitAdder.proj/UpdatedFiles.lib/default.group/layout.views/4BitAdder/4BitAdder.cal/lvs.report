@@ -1,0 +1,224 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.report
+LAYOUT NAME:              /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal/lay.net ('4BitAdder')
+SOURCE NAME:              /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal/4BitAdder.calibre.src.net ('4BitAdder')
+RULE FILE:                /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal/_tsmc035.calibre.rules_
+CREATION TIME:            Mon Nov  7 17:21:11 2016
+CURRENT DIRECTORY:        /DCNFS/users/student/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal
+USER NAME:                mhao
+CALIBRE VERSION:          v2008.2_33.26    Wed Jul 9 14:10:20 PDT 2008
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        4BitAdder                     4BitAdder
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD" "VCC" "vdd" "vcc"
+   LVS GROUND NAME                        "VSS" "vss" "GND" "gnd"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+
+   // Filter
+
+   LVS FILTER  sch_filter_direct_open  OPEN SOURCE DIRECT
+   LVS FILTER  sch_filter_direct_short  SHORT SOURCE DIRECT
+   LVS FILTER  sch_filter_mask_open  OPEN SOURCE MASK
+   LVS FILTER  sch_filter_mask_short  SHORT SOURCE MASK
+   LVS FILTER  lay_filter_direct_open  OPEN LAYOUT DIRECT
+   LVS FILTER  lay_filter_direct_short  SHORT LAYOUT DIRECT
+   LVS FILTER  v  OPEN
+   LVS FILTER  i  OPEN
+   LVS FILTER  e  OPEN
+   LVS FILTER  f  OPEN
+   LVS FILTER  g  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mn  w w 0
+   TRACE PROPERTY  mp  w w 0
+   TRACE PROPERTY  mn  l l 0
+   TRACE PROPERTY  mp  l l 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         4BitAdder
+SOURCE CELL NAME:         4BitAdder
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             16        16
+
+ Nets:              71        71
+
+ Instances:         60        60         MN (4 pins)
+                    60        60         MP (4 pins)
+                ------    ------
+ Total Inst:       120       120
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             16        16
+
+ Nets:              51        51
+
+ Instances:         16        16         MN (4 pins)
+                    20        20         _invv (4 pins)
+                     8         8         _nand2v (5 pins)
+                     4         4         _nor2v (5 pins)
+                     8         8         _sup2v (4 pins)
+                ------    ------
+ Total Inst:        56        56
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              16         16            0            0
+
+   Nets:               51         51            0            0
+
+   Instances:          16         16            0            0    MN(N)
+                       20         20            0            0    _invv
+                        8          8            0            0    _nand2v
+                        4          4            0            0    _nor2v
+                        8          8            0            0    _sup2v
+                  -------    -------    ---------    ---------
+   Total Inst:         56         56            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD X0 X2 Y0 Y2 S0 S2 X1 X3 Y1 Y3 S1 S3 CIN GROUND COUT
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

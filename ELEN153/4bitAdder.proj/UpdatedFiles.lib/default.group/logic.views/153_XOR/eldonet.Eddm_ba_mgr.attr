@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 580ea4396b90.03.81.d2.10.50.00.3e.e7 1 2 1 0
+V v 1 1 4dec846b6b15.03.81.d2.10.4f.00.1c.bc
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/153_XOR/eldonet" 1 Eddm_design_viewpoint 4dec846b351a.03.81.d2.10.4f.01.1c.bc 580ea4396b47.03.81.d2.10.50.00.3e.e7

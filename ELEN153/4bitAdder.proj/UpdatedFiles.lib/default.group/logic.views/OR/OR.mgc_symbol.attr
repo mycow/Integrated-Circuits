@@ -1,0 +1,9 @@
+A 5 u mgc_symbol 518d96200ba0.03.81.d2.10.8f.00.54.ba 2 2 1 0
+V v 1 1 4fa9972044fd.03.81.d2.10.92.01.57.b0
+F f 1 "OR.smbl_1"
+V v 2 1 4fa99724ecba.03.81.d2.10.92.00.57.b0
+F f 2 "OR.smbl_2"
+O 2
+R csduv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 2 Eddm_part 4fa997204e2c.03.81.d2.10.92.00.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+O 1
+R csduv 0 "$UpdatedFiles/default.group/logic.views/OR/part" 2 Eddm_part 4fa997204e2c.03.81.d2.10.92.00.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba

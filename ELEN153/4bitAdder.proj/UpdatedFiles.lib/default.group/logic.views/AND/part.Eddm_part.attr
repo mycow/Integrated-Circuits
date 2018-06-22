@@ -1,0 +1,12 @@
+A 5 u Eddm_part 518d8930b41e.03.81.d2.10.8f.00.38.0d 2 2 2 0
+V v 1 1 4fa98ca3a18d.03.81.d2.10.92.01.38.39
+F f 1 "part.part_1"
+V v 2 1 4fa98ccda633.03.81.d2.10.92.00.3a.d3
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/AND/schematic" 1 mgc_schematic 4fa98b70b966.03.81.d2.10.92.01.38.39 518d8930b437.03.81.d2.10.8f.00.38.0d
+R csduv 1 "$UpdatedFiles/default.group/logic.views/AND/AND" 1 mgc_symbol 4fa98ccd8d46.03.81.d2.10.92.01.3a.d3 518d8930b39b.03.81.d2.10.8f.00.38.0d
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/AND/schematic" 1 mgc_schematic 4fa98b70b966.03.81.d2.10.92.01.38.39 518d8930b437.03.81.d2.10.8f.00.38.0d

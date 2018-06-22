@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtRunTimes 1478568364 1478568364
+lvs_ExtOutFile RUNDIR /DCNFS/users/student/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/FullAdder/FullAdder.cal
+lvs_ExtOutFile LAYOUT_NETLIST /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/FullAdder/FullAdder.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

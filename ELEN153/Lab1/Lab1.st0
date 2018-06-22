@@ -1,0 +1,17 @@
+***** HSPICE -- D-2010.03 32-BIT (Feb 23 2010) linux ******
+ Input File: Lab1.lis
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   mhao                 HOSTNAME: linux60817
+ lic: HOSTID: 3417ebbc89f1         PID:      31611
+ lic: Using FLEXlm license file:
+ lic: 27000@hoth
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 13-oct-2017/2016.06
+ lic: FLOATING license(s) on SERVER hoth
+ lic:
+ init: begin read circuit files,  cpu clock=  0.00E+00
+       option search   = /applications/synopsys/2010.03/hspice/hspice
+       option runlvl
+ **error** invalid memory reference
+

@@ -1,0 +1,48 @@
+* ELDO netlist generated with ICnet by 'mhao' on Mon Oct 24 2016 at 17:28:23
+
+*
+* Globals.
+*
+.global vdd ground
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/AND
+*
+.subckt and  out a b
+
+        m1 out n$4 ground ground N L=.4u W=1.2u M=1
+        m3 n$6 a ground ground N L=.4u W=2.4u M=1
+        m5 n$4 b n$6 ground N L=.4u W=2.4u M=1
+        m4 n$4 b vdd vdd P L=.4u W=2.4u M=1
+        m6 n$4 a vdd vdd P L=.4u W=2.4u M=1
+        m2 out n$4 vdd vdd P L=.4u W=2.4u M=1
+.ends and
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+.subckt inverter  out in
+
+        m2 out in vdd vdd P L=0.4u W=3.6u M=1
+        m1 out in ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153_XOR
+*
+.subckt 153_xor  xor a b
+
+        x_inverter1 xor n$3 inverter
+        m2 b a n$3 ground N L=0.4u W=1.2u M=2
+        m4 a b n$3 ground N L=0.4u W=1.2u M=2
+        m3 n$3 b n$2 vdd P L=0.4u W=2.4u M=2
+        m1 n$2 a vdd vdd P L=0.4u W=2.4u M=2
+.ends 153_xor
+
+*
+* MAIN CELL: Component pathname : $UpdatedFiles/default.group/logic.views/Half-Adder
+*
+        x_and1 c y x and
+        x_153_xor1 s y x 153_xor
+*
+.end

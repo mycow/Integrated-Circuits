@@ -1,0 +1,2004 @@
+//
+//  Calibre Interactive - DRC  v2008.2_33.26    Wed Jul 9 14:12:25 PDT 2008
+//
+//                 Copyright Mentor Graphics Corporation 2005
+//                             All Rights Reserved.
+//         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Running on Linux linux60809 2.6.18-238.9.1.el5PAE #1 SMP Tue Apr 12 18:52:55 EDT 2011 i686
+//
+//  Starting time: Mon Jun  6 01:28:32 2011
+//
+MGC_HOME = /opt/mentor-2008.1/linux/calibre/ixl_cal_2008.2_33.26
+$MGC_HOME/bin/calibre -drc -nowait /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/./_tsmc035.rules_
+
+WARNING: Red Hat Linux Release CentOS is not qualified for use with Calibre products.
+//  Calibre v2008.2_33.26    Wed Jul 9 14:10:20 PDT 2008
+//  Litho Libraries v2008.2_33.26  Wed Jul  9 14:09:41 PDT 2008
+//
+//             Copyright Mentor Graphics Corporation 1996-2008
+//                             All Rights Reserved.
+//         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under i386 Linux
+//
+//  Running on Linux linux60809 2.6.18-238.9.1.el5PAE #1 SMP Tue Apr 12 18:52:55 EDT 2011 i686 glibc 2.5/NPTL 2.5
+//
+//  Entries in /proc/meminfo:
+//
+//  MemTotal:      6230416 kB
+//  MemFree:       3752856 kB
+//  Buffers:        218520 kB
+//  Cached:        1926548 kB
+//  SwapCached:          0 kB
+//  Active:        1095036 kB
+//  Inactive:      1241768 kB
+//  HighTotal:     5371876 kB
+//  HighFree:      3230664 kB
+//  LowTotal:       858540 kB
+//  LowFree:        522192 kB
+//  SwapTotal:     2096472 kB
+//  SwapFree:      2096472 kB
+//  Dirty:             448 kB
+//  Writeback:           0 kB
+//  AnonPages:      191624 kB
+//  Mapped:         119720 kB
+//  Slab:           112256 kB
+//  PageTables:       6124 kB
+//  NFS_Unstable:        0 kB
+//  Bounce:              0 kB
+//  CommitLimit:   5211680 kB
+//  Committed_AS:   460080 kB
+//  VmallocTotal:   116728 kB
+//  VmallocUsed:     52384 kB
+//  VmallocChunk:    56820 kB
+//  HugePages_Total:     0
+//  HugePages_Free:      0
+//  HugePages_Rsvd:      0
+//  Hugepagesize:     2048 kB
+//
+//  Running ixl_cal_2008.2_33.26/pkgs/icv/pvt/calibre -drc -nowait /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/./_tsmc035.rules_
+//  Process ID: 13361
+//
+//  Starting time: Mon Jun  6 01:28:33 2011
+//
+//  Running on 1 CPU (pending licensing) 
+//
+//
+
+--- CALIBRE::DRC-F - Mon Jun  6 01:28:33 2011
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----          STANDARD VERIFICATION RULE FILE COMPILATION MODULE          -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- RULE FILE = /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/./_tsmc035.rules_
+
+//
+//  Rule file generated on Mon Jun 06 01:28:33 PDT 2011
+//     by Calibre Interactive - DRC (v2008.2_33.26)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/.NOTXNOR.bin"
+LAYOUT PRIMARY "NOTXNOR"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "/users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "drc.summary" REPLACE 
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+#IFDEF $MGC_CALIBRE_INTERACTIVE
+   DRC ICSTATION YES
+#ENDIF
+
+
+INCLUDE "/opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules"
+
+
+
+--- STANDARD VERIFICATION RULE FILE COMPILATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+//  Applying licensing policy...
+//  calibrepvs_s license acquired.
+
+//  Licensed Products
+//  -----------------
+//  Base products running on 1 CPU:
+//  - DRC (Flat)
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                   CALIBRE LAYOUT DATA INPUT MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- LAYOUT SYSTEM = GDS
+--- LAYOUT MAGNIFICATION = 1
+
+--------------------------------------------------------------------------------
+-----                     GDS FILE SUMMARY INFORMATION                     -----
+--------------------------------------------------------------------------------
+
+GDS FILENAME:        /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/.NOTXNOR.bin
+GDS VERSION:         600
+LIBRARY NAME:        mentor.db
+LAST MODIFIED:       ON 2011/6/6 AT 1:28:32
+LAST ACCESSED:       ON 2011/6/6 AT 1:28:32
+DATABASE PRECISION:  0.001 user units per database unit
+PHYSICAL PRECISION:  1e-09 meters per database unit
+MAGNIFICATION:       1
+
+--------------------------------------------------------------------------------
+-----                 GDS INPUT DATA FOR INDIVIDUAL CELLS                  -----
+--------------------------------------------------------------------------------
+     CELL NAME                  PLACEMENTS   ARRAYS   POLYGONS    PATHS    TEXTS
+--------------------------------------------------------------------------------
+NOTXNOR                                  0        0         82        0        5
+
+NOTE: UNUSED geometric data is present on the following layer/datatype pairs:
+    LAYER = 41 DATATYPE = 0
+
+NOTE: The following required simple layers are EMPTY:
+    2
+    3
+    4
+    10
+    25
+    26
+    30
+    31
+    34
+    52
+    55
+    56
+    61
+    62
+    111
+
+--- LAYOUT DATABASE CONSTRUCTOR COMPLETED.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer N_WELL ...
+READ completed - 1 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer POLY ...
+READ completed - 3 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer ACTIVE ...
+READ completed - 6 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer P_PLUS_SELECT ...
+READ completed - 3 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer N_PLUS_SELECT ...
+READ completed - 3 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer DIFFUSED_RESISTOR ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer CONTACT_TO_ACTIVE ...
+READ completed - 44 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer HI_RES_IMPLANT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer ELECTRODE ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL1 ...
+READ completed - 10 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer CONTACT_TO_POLY ...
+READ completed - 2 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer CONTACT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer PADS ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer VIA ...
+READ completed - 6 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL2 ...
+READ completed - 3 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer CONTACT_TO_ELECTRODE ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer VIA2 ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL3 ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer VIA3 ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL4 ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL1.PORT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL2.PORT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL3.PORT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer OVERGLASS ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+READING original layer METAL4.PORT ...
+READ completed - 0 original geometries.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/1
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR CONNECTIVITY EXTRACTION               -----
+--------------------------------------------------------------------------------
+
+VDD (4,17) 2                            GROUND (4,-51) 2
+XOR (27,-22) 2                          A (-14,-25) 3
+B (9,-22) 3
+
+--------------------------------------------------------------------------------
+-----                TEXT OBJECTS FOR WITH TEXT OPERATIONS                 -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----               TEXT OBJECTS FOR EXPAND TEXT OPERATIONS                -----
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                   LAYER READ SUMMARY (GEOMETRIES)                    -----
+--------------------------------------------------------------------------------
+SIMPLE LAYER     GEOMETRIES                  ORIGINAL LAYER           GEOMETRIES
+--------------------------------------------------------------------------------
+
+     2                  0                    N_WELL                          1
+     3                  0                    POLY                            3
+     4                  0                    ACTIVE                          6
+     10                 0                    P_PLUS_SELECT                   3
+     25                 0                    N_PLUS_SELECT                   3
+     26                 0                    DIFFUSED_RESISTOR               0
+     30                 0                    CONTACT_TO_ACTIVE              44
+     31                 0                    HI_RES_IMPLANT                  0
+     34                 0                    ELECTRODE                       0
+     42                 1                    METAL1                         10
+     43                 6                    CONTACT_TO_POLY                 2
+     44                 3                    CONTACT                         0
+     45                 3                    PADS                            0
+     46                 3                    VIA                             6
+     47                 2                    METAL2                          3
+     48                44                    CONTACT_TO_ELECTRODE            0
+     49                10                    VIA2                            0
+     50                 6                    METAL3                          0
+     51                 3                    VIA3                            0
+     52                 0                    METAL4                          0
+     55                 0                    METAL1.PORT                     0
+     56                 0                    METAL2.PORT                     0
+     61                 0                    METAL3.PORT                     0
+     62                 0                    OVERGLASS                       0
+     111                0                    METAL4.PORT                     0
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR CONNECTIVITY EXTRACTION)        -----
+--------------------------------------------------------------------------------
+LAYER    TEXTS                   LAYER    TEXTS                   LAYER    TEXTS
+--------------------------------------------------------------------------------
+
+2            3                   3            2
+
+--------------------------------------------------------------------------------
+-----          LAYER READ SUMMARY (TEXT FOR WITH TEXT OPERATIONS)          -----
+--------------------------------------------------------------------------------
+LAYER    TEXTS                   LAYER    TEXTS                   LAYER    TEXTS
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----         LAYER READ SUMMARY (TEXT FOR EXPAND TEXT OPERATIONS)         -----
+--------------------------------------------------------------------------------
+LAYER    TEXTS                   LAYER    TEXTS                   LAYER    TEXTS
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+-----                   LAYOUT DATA INPUT MODULE SUMMARY                   -----
+--------------------------------------------------------------------------------
+
+--- TOTAL GEOMETRIES READ FROM SIMPLE LAYERS = 81
+--- TOTAL GEOMETRIES WRITTEN TO ORIGINAL LAYERS = 81
+--- LVHEAP = 1/1/2
+--- DATABASE EXTENT = [ -26 , -54 ] -> [ 36 , 26 ]
+--- GEOMETRIC DEPTH = ALL
+--- TEXT DEPTH FOR CONNECTIVITY EXTRACTION = PRIMARY
+--- TOTAL TEXT OBJECTS FOR CONNECTIVITY EXTRACTION = 5
+--- TOTAL TEXT OBJECTS FOR WITH TEXT OPERATIONS = 0
+--- TOTAL TEXT OBJECTS FOR EXPAND TEXT OPERATIONS = 0
+--- GEOMETRY FLAGGING = ACUTE (NO)  SKEW (NO)  ANGLED (NO)  OFFGRID (NO)
+                        NONSIMPLE POLYGON (NO)  NONSIMPLE PATH (NO)
+--- PRIMARY CELL = NOTXNOR
+--- EXCLUDED CELLS =
+
+--- CALIBRE LAYOUT DATA INPUT MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----        CALIBRE::DRC-F - RESULTS DATABASE INITIALIZATION MODULE       -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- GLOBAL DRC RESULTS DATABASE FILE = /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results (ASCII)
+--- GLOBAL MAXIMUM RESULTS PER RULECHECK = 1000
+--- GLOBAL MAXIMUM VERTICES PER RESULT POLYGON = 4096
+--- CHECK TEXT MAPPING = COMMENTS + RULE FILE INFORMATION
+--- KEEP EMPTY RULE CHECKS = YES
+--- DRC RESULTS MAGNIFICATION = 1
+--- DRC RESULTS DATABASE PRECISION = 1000
+
+--------------------------------------------------------------------------------
+-----              DRC RULECHECK -> RESULTS DATABASE MAPPING               -----
+--------------------------------------------------------------------------------
+                                                          DATA        MAX    MAX
+RULECHECK            RESULTS DATABASE         TYPE LAYER  TYPE     RESULT VERTEX
+--------------------------------------------------------------------------------
+bad_active_area      /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_contact_poly     /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_contact_ELECTRODE
+                     /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_contact_active   /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_contact_gate     /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_via              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_via2             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_via3             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+select_overlap       /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_nwell            /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_psubstrate       /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_pgate            /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_ngate            /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+bad_port             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC1_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC1_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC2_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC2_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC2_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC2_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC3_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC3_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC3_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC3_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC3_5               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.1p              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.1n              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.3p              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.3n              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.4pw             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.4ps             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.4nw             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.4ns             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC4.4np             /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC5_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC5_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC5_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC5_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC6_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC6_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC6_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC6_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC7_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC7_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC7_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC7_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC8_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC8_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC8_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC9_1               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC9_2               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC9_3               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC9_4               /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_4              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_5              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC11_sel            /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC12_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC12_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC13_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC13_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC13_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC13_4              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC13_5              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC14_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC14_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC14_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC15_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC15_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC15_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC15_4              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC21_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC21_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC21_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC22_1              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC22_2              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC22_3              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+DRC22_4              /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results
+                                             ASCII   N/A   N/A       1000   4096
+
+--- CALIBRE::DRC-F RESULTS DATABASE INITIALIZATION MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----                  CALIBRE::DRC-F - EXECUTIVE MODULE                   -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+VIA3 = OR VIA3
+--------------
+VIA3 (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 1 OF 175  ELAPSED TIME = 1
+
+Original Layer VIA3 DELETED -- LVHEAP = 1/1/2
+
+METAL3 = OR METAL3
+------------------
+METAL3 (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 2 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL3 DELETED -- LVHEAP = 1/1/2
+
+METAL4 = OR METAL4
+------------------
+METAL4 (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 3 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL4 DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL3 METAL4 BY VIA3 ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+VIA2 = OR VIA2
+--------------
+VIA2 (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 4 OF 175  ELAPSED TIME = 1
+
+Original Layer VIA2 DELETED -- LVHEAP = 1/1/2
+
+METAL2 = OR METAL2
+------------------
+METAL2 (TYP=1 CFG=1 ECT=10 OCT=9 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 5 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL2 DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL2 METAL3 BY VIA2 ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+VIA = OR VIA
+------------
+VIA (TYP=1 CFG=1 ECT=12 OCT=6 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 6 OF 175  ELAPSED TIME = 1
+
+Original Layer VIA DELETED -- LVHEAP = 1/1/2
+
+METAL1 = OR METAL1
+------------------
+METAL1 (TYP=1 CFG=1 ECT=32 OCT=27 SRT=1 CMP=F MPN=9)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 7 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL1 DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 METAL2 BY VIA ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+CONTACT_TO_POLY = OR CONTACT_TO_POLY
+------------------------------------
+CONTACT_TO_POLY (TYP=1 CFG=1 ECT=4 OCT=2 SRT=1 CMP=F MPN=2)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 8 OF 175  ELAPSED TIME = 1
+
+Original Layer CONTACT_TO_POLY DELETED -- LVHEAP = 1/1/2
+
+POLY = OR POLY
+--------------
+POLY (TYP=1 CFG=1 ECT=15 OCT=11 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 9 OF 175  ELAPSED TIME = 1
+
+Original Layer POLY DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 POLY BY CONTACT_TO_POLY ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+CONTACT = OR CONTACT
+--------------------
+CONTACT (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 10 OF 175  ELAPSED TIME = 1
+
+Original Layer CONTACT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 POLY BY CONTACT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+METAL4.PORT = OR METAL4.PORT
+----------------------------
+METAL4.PORT (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 11 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL4.PORT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL4 METAL4.PORT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+Layer METAL4.PORT DELETED -- LVHEAP = 1/1/2
+
+METAL3.PORT = OR METAL3.PORT
+----------------------------
+METAL3.PORT (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 12 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL3.PORT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL3 METAL3.PORT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+METAL2.PORT = OR METAL2.PORT
+----------------------------
+METAL2.PORT (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 13 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL2.PORT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL2 METAL2.PORT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+METAL1.PORT = OR METAL1.PORT
+----------------------------
+METAL1.PORT (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 14 OF 175  ELAPSED TIME = 1
+
+Original Layer METAL1.PORT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 METAL1.PORT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+CONNECT POLY ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+CONTACT_TO_ELECTRODE = OR CONTACT_TO_ELECTRODE
+----------------------------------------------
+CONTACT_TO_ELECTRODE (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 15 OF 175  ELAPSED TIME = 1
+
+Original Layer CONTACT_TO_ELECTRODE DELETED -- LVHEAP = 1/1/2
+
+ELECTRODE = OR ELECTRODE
+------------------------
+ELECTRODE (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 16 OF 175  ELAPSED TIME = 1
+
+Original Layer ELECTRODE DELETED -- LVHEAP = 1/1/2
+
+HI_RES_IMPLANT = OR HI_RES_IMPLANT
+----------------------------------
+HI_RES_IMPLANT (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 17 OF 175  ELAPSED TIME = 1
+
+Original Layer HI_RES_IMPLANT DELETED -- LVHEAP = 1/1/2
+
+HR_pin = ELECTRODE NOT HI_RES_IMPLANT
+-------------------------------------
+HR_pin (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 18 OF 175  ELAPSED TIME = 1
+
+Layer HI_RES_IMPLANT DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 HR_pin BY CONTACT_TO_ELECTRODE ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+Layer HR_pin DELETED -- LVHEAP = 1/1/2
+
+CAP_pin = METAL1 AND ELECTRODE
+------------------------------
+CAP_pin (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 19 OF 175  ELAPSED TIME = 1
+
+CONNECT METAL1 CAP_pin BY CONTACT_TO_ELECTRODE ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+Layer CAP_pin DELETED -- LVHEAP = 1/1/2
+
+P_PLUS_SELECT = OR P_PLUS_SELECT
+--------------------------------
+P_PLUS_SELECT (TYP=1 CFG=3 ECT=7 OCT=5 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 20 OF 175  ELAPSED TIME = 1
+
+Original Layer P_PLUS_SELECT DELETED -- LVHEAP = 1/1/2
+
+pres = POLY AND P_PLUS_SELECT
+-----------------------------
+pres (TYP=1 CFG=1 ECT=6 OCT=3 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 21 OF 175  ELAPSED TIME = 1
+
+CONNECT METAL1 pres BY CONTACT_TO_POLY ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+Layer pres DELETED -- LVHEAP = 1/1/2
+
+N_PLUS_SELECT = OR N_PLUS_SELECT
+--------------------------------
+N_PLUS_SELECT (TYP=1 CFG=3 ECT=7 OCT=5 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 22 OF 175  ELAPSED TIME = 1
+
+Original Layer N_PLUS_SELECT DELETED -- LVHEAP = 1/1/2
+
+respin = POLY AND N_PLUS_SELECT
+-------------------------------
+respin (TYP=1 CFG=1 ECT=6 OCT=3 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 23 OF 175  ELAPSED TIME = 1
+
+CONNECT METAL1 respin BY CONTACT_TO_POLY ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+Layer respin DELETED -- LVHEAP = 1/1/2
+
+CONTACT_TO_ACTIVE = OR CONTACT_TO_ACTIVE
+----------------------------------------
+CONTACT_TO_ACTIVE (TYP=1 CFG=1 ECT=88 OCT=44 SRT=1 CMP=F MPN=44)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 24 OF 175  ELAPSED TIME = 1
+
+Original Layer CONTACT_TO_ACTIVE DELETED -- LVHEAP = 1/1/2
+
+ACTIVE = OR ACTIVE
+------------------
+ACTIVE (TYP=1 CFG=1 ECT=18 OCT=14 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 25 OF 175  ELAPSED TIME = 1
+
+Original Layer ACTIVE DELETED -- LVHEAP = 1/1/2
+
+DIFF = ACTIVE NOT POLY
+----------------------
+DIFF (TYP=1 CFG=0 ECT=30 OCT=20 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 26 OF 175  ELAPSED TIME = 1
+
+NDIFF = DIFF AND N_PLUS_SELECT
+------------------------------
+NDIFF (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 27 OF 175  ELAPSED TIME = 1
+
+nsdt = NDIFF NOT POLY
+---------------------
+nsdt (TYP=1 CFG=0 ECT=15 OCT=10 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 28 OF 175  ELAPSED TIME = 1
+
+DIFFUSED_RESISTOR = OR DIFFUSED_RESISTOR
+----------------------------------------
+DIFFUSED_RESISTOR (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 29 OF 175  ELAPSED TIME = 1
+
+Original Layer DIFFUSED_RESISTOR DELETED -- LVHEAP = 1/1/2
+
+dfcnt = CONTACT_TO_ACTIVE INSIDE DIFFUSED_RESISTOR
+--------------------------------------------------
+dfcnt (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 30 OF 175  ELAPSED TIME = 1
+
+dfcnto = SIZE dfcnt BY 2
+------------------------
+dfcnto (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 31 OF 175  ELAPSED TIME = 1
+
+Layer dfcnt DELETED -- LVHEAP = 1/1/2
+
+dfrs = DIFFUSED_RESISTOR NOT dfcnto
+-----------------------------------
+dfrs (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 32 OF 175  ELAPSED TIME = 1
+
+Layer DIFFUSED_RESISTOR DELETED -- LVHEAP = 1/1/2
+
+Layer dfcnto DELETED -- LVHEAP = 1/1/2
+
+NSRCDRN = nsdt NOT dfrs
+-----------------------
+NSRCDRN (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 33 OF 175  ELAPSED TIME = 1
+
+Layer nsdt DELETED -- LVHEAP = 1/1/2
+
+PDIFF = DIFF AND P_PLUS_SELECT
+------------------------------
+PDIFF (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 34 OF 175  ELAPSED TIME = 1
+
+Layer DIFF DELETED -- LVHEAP = 1/1/2
+
+psdt = PDIFF NOT POLY
+---------------------
+psdt (TYP=1 CFG=0 ECT=15 OCT=10 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 35 OF 175  ELAPSED TIME = 1
+
+PSRCDRN = psdt NOT dfrs
+-----------------------
+PSRCDRN (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 36 OF 175  ELAPSED TIME = 1
+
+Layer psdt DELETED -- LVHEAP = 1/1/2
+
+Layer dfrs DELETED -- LVHEAP = 1/1/2
+
+CONNECT METAL1 NSRCDRN PSRCDRN BY CONTACT_TO_ACTIVE ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+CONNECT METAL1 NSRCDRN PSRCDRN BY CONTACT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2
+
+DRC_0 = EXTENT
+--------------
+DRC_0 (TYP=1 CFG=1 ECT=2 OCT=1 SRT=1 CMP=F MPN=1)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 37 OF 175  ELAPSED TIME = 1
+
+BULK = SIZE DRC_0 BY 1
+----------------------
+BULK (TYP=1 CFG=0 ECT=2 OCT=1 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 38 OF 175  ELAPSED TIME = 1
+
+Layer DRC_0 DELETED -- LVHEAP = 1/1/2
+
+N_WELL = OR N_WELL
+------------------
+N_WELL (TYP=1 CFG=3 ECT=2 OCT=1 SRT=1 CMP=F MPN=1)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 39 OF 175  ELAPSED TIME = 1
+
+Original Layer N_WELL DELETED -- LVHEAP = 1/1/2
+
+PSUB = BULK NOT N_WELL
+----------------------
+PSUB (TYP=1 CFG=1 ECT=4 OCT=3 SRT=1 CMP=F MPN=1)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/1/2  OPS COMPLETE = 40 OF 175  ELAPSED TIME = 1
+
+Layer BULK DELETED -- LVHEAP = 1/1/2
+
+CONNECT PSRCDRN PSUB ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+CONNECT NSRCDRN N_WELL ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+CONNECT N_PLUS_SELECT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+CONNECT P_PLUS_SELECT ...
+CONNECT completed.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+NODE NUMBERS placed on layer N_WELL.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+NODE NUMBERS placed on layer N_PLUS_SELECT.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+NODE NUMBERS placed on layer P_PLUS_SELECT.  CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3
+
+bad_active_area::x = ACTIVE NOT P_PLUS_SELECT
+---------------------------------------------
+bad_active_area::x (TYP=1 CFG=0 ECT=9 OCT=7 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 41 OF 175  ELAPSED TIME = 1
+
+bad_active_area::<1> = bad_active_area::x NOT N_PLUS_SELECT
+-----------------------------------------------------------
+bad_active_area::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 42 OF 175  ELAPSED TIME = 1
+
+Layer bad_active_area::x DELETED -- LVHEAP = 1/3/3
+
+Layer bad_active_area::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_active_area COMPLETED. Number of Results = 0
+
+bad_contact_poly::<1> = CONTACT_TO_POLY NOT INSIDE POLY
+-------------------------------------------------------
+bad_contact_poly::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 43 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_poly::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_contact_poly::<2> = CONTACT_TO_POLY NOT INSIDE METAL1
+---------------------------------------------------------
+bad_contact_poly::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 44 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_poly::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_contact_poly COMPLETED. Number of Results = 0
+
+bad_contact_ELECTRODE::<1> = CONTACT_TO_ELECTRODE NOT INSIDE ELECTRODE
+----------------------------------------------------------------------
+bad_contact_ELECTRODE::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 45 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_ELECTRODE::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_contact_ELECTRODE::<2> = CONTACT_TO_ELECTRODE NOT INSIDE METAL1
+-------------------------------------------------------------------
+bad_contact_ELECTRODE::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 46 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_ELECTRODE::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_contact_ELECTRODE COMPLETED. Number of Results = 0
+
+bad_contact_active::<1> = CONTACT_TO_ACTIVE NOT INSIDE ACTIVE
+-------------------------------------------------------------
+bad_contact_active::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 47 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_active::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_contact_active::<2> = CONTACT_TO_ACTIVE NOT INSIDE METAL1
+-------------------------------------------------------------
+bad_contact_active::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 48 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_active::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_contact_active COMPLETED. Number of Results = 0
+
+bad_contact_gate::<1> = CONTACT_TO_POLY AND ACTIVE
+--------------------------------------------------
+bad_contact_gate::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 49 OF 175  ELAPSED TIME = 1
+
+Layer bad_contact_gate::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_contact_gate COMPLETED. Number of Results = 0
+
+bad_via::<1> = VIA NOT INSIDE METAL1
+------------------------------------
+bad_via::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 50 OF 175  ELAPSED TIME = 1
+
+Layer bad_via::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_via::<2> = VIA NOT INSIDE METAL2
+------------------------------------
+bad_via::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 51 OF 175  ELAPSED TIME = 1
+
+Layer bad_via::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_via COMPLETED. Number of Results = 0
+
+bad_via2::<1> = VIA2 NOT INSIDE METAL2
+--------------------------------------
+bad_via2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 52 OF 175  ELAPSED TIME = 1
+
+Layer bad_via2::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_via2::<2> = VIA2 NOT INSIDE METAL3
+--------------------------------------
+bad_via2::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 53 OF 175  ELAPSED TIME = 1
+
+Layer bad_via2::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_via2 COMPLETED. Number of Results = 0
+
+bad_via3::<1> = VIA3 NOT INSIDE METAL3
+--------------------------------------
+bad_via3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 54 OF 175  ELAPSED TIME = 1
+
+Layer bad_via3::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_via3::<2> = VIA3 NOT INSIDE METAL4
+--------------------------------------
+bad_via3::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 55 OF 175  ELAPSED TIME = 1
+
+Layer bad_via3::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_via3 COMPLETED. Number of Results = 0
+
+select_overlap::<1> = P_PLUS_SELECT AND N_PLUS_SELECT
+-----------------------------------------------------
+select_overlap::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 56 OF 175  ELAPSED TIME = 1
+
+Layer select_overlap::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck select_overlap COMPLETED. Number of Results = 0
+
+ACT_CONTACT = CONTACT_TO_ACTIVE OR CONTACT
+------------------------------------------
+ACT_CONTACT (TYP=1 CFG=0 ECT=88 OCT=44 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 57 OF 175  ELAPSED TIME = 1
+
+Layer CONTACT DELETED -- LVHEAP = 1/3/3
+
+NWTIE = NDIFF AND N_WELL
+------------------------
+NWTIE (TYP=1 CFG=0 ECT=5 OCT=5 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 58 OF 175  ELAPSED TIME = 1
+
+bad_nwell::x = ACT_CONTACT AND NWTIE
+------------------------------------
+bad_nwell::x (TYP=1 CFG=1 ECT=22 OCT=11 SRT=1 CMP=F MPN=11)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 59 OF 175  ELAPSED TIME = 1
+
+Layer NWTIE DELETED -- LVHEAP = 1/3/3
+
+bad_nwell::<1> = N_WELL NOT ENCLOSE bad_nwell::x
+------------------------------------------------
+bad_nwell::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 60 OF 175  ELAPSED TIME = 1
+
+Layer bad_nwell::x DELETED -- LVHEAP = 1/3/3
+
+Layer bad_nwell::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_nwell COMPLETED. Number of Results = 0
+
+PSUBTIE = PDIFF AND PSUB
+------------------------
+PSUBTIE (TYP=1 CFG=0 ECT=5 OCT=5 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 61 OF 175  ELAPSED TIME = 1
+
+bad_psubstrate::x = ACT_CONTACT AND PSUBTIE
+-------------------------------------------
+bad_psubstrate::x (TYP=1 CFG=1 ECT=22 OCT=11 SRT=1 CMP=F MPN=11)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 62 OF 175  ELAPSED TIME = 1
+
+Layer ACT_CONTACT DELETED -- LVHEAP = 1/3/3
+
+Layer PSUBTIE DELETED -- LVHEAP = 1/3/3
+
+bad_psubstrate::<1> = PSUB NOT ENCLOSE bad_psubstrate::x
+--------------------------------------------------------
+bad_psubstrate::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 63 OF 175  ELAPSED TIME = 1
+
+Layer bad_psubstrate::x DELETED -- LVHEAP = 1/3/3
+
+Layer bad_psubstrate::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_psubstrate COMPLETED. Number of Results = 0
+
+GATES = POLY AND ACTIVE
+-----------------------
+GATES (TYP=1 CFG=1 ECT=12 OCT=6 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 64 OF 175  ELAPSED TIME = 1
+
+PGATE = GATES AND P_PLUS_SELECT
+-------------------------------
+PGATE (TYP=1 CFG=1 ECT=6 OCT=3 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 65 OF 175  ELAPSED TIME = 1
+
+bad_pgate::<1> = PGATE AND PSUB
+-------------------------------
+bad_pgate::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 66 OF 175  ELAPSED TIME = 1
+
+Layer PSUB DELETED -- LVHEAP = 1/3/3
+
+Layer bad_pgate::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_pgate COMPLETED. Number of Results = 0
+
+NGATE = GATES AND N_PLUS_SELECT
+-------------------------------
+NGATE (TYP=1 CFG=1 ECT=6 OCT=3 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 67 OF 175  ELAPSED TIME = 1
+
+bad_ngate::<1> = NGATE AND N_WELL
+---------------------------------
+bad_ngate::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 68 OF 175  ELAPSED TIME = 1
+
+Layer bad_ngate::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_ngate COMPLETED. Number of Results = 0
+
+bad_port::<1> = METAL1.PORT NOT INSIDE METAL1
+---------------------------------------------
+bad_port::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 69 OF 175  ELAPSED TIME = 1
+
+Layer METAL1.PORT DELETED -- LVHEAP = 1/3/3
+
+Layer bad_port::<1> DELETED -- LVHEAP = 1/3/3
+
+bad_port::<2> = METAL2.PORT NOT INSIDE METAL2
+---------------------------------------------
+bad_port::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 70 OF 175  ELAPSED TIME = 1
+
+Layer METAL2.PORT DELETED -- LVHEAP = 1/3/3
+
+Layer bad_port::<2> DELETED -- LVHEAP = 1/3/3
+
+bad_port::<3> = METAL3.PORT NOT INSIDE METAL3
+---------------------------------------------
+bad_port::<3> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 71 OF 175  ELAPSED TIME = 1
+
+Layer METAL3.PORT DELETED -- LVHEAP = 1/3/3
+
+Layer bad_port::<3> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck bad_port COMPLETED. Number of Results = 0
+
+DRC1_2::<1> = EXT N_WELL < 18 REGION SQUARE NOT CONNECTED SINGULAR
+DRC1_1::<1> = INT N_WELL < 12 REGION SQUARE SINGULAR
+------------------------------------------------------------------
+DRC1_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC1_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 73 OF 175  ELAPSED TIME = 1
+
+Layer DRC1_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC1_1 COMPLETED. Number of Results = 0
+
+Layer DRC1_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC1_2 COMPLETED. Number of Results = 0
+
+DRC2_2::<1> = EXT ACTIVE < 3 REGION SQUARE
+DRC2_1::<1> = INT ACTIVE < 3 REGION SQUARE
+------------------------------------------
+DRC2_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC2_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 75 OF 175  ELAPSED TIME = 1
+
+Layer DRC2_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC2_1 COMPLETED. Number of Results = 0
+
+Layer DRC2_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC2_2 COMPLETED. Number of Results = 0
+
+DRC2_3::<1> = EXT N_WELL NDIFF < 6 REGION SQUARE SINGULAR
+DRC2_4::<1> = ENC NDIFF N_WELL < 3 REGION ABUT == 0 OVERLAP SINGULAR
+--------------------------------------------------------------------
+DRC2_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC2_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 77 OF 175  ELAPSED TIME = 1
+
+Layer NDIFF DELETED -- LVHEAP = 1/3/3
+
+Layer DRC2_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC2_4::<2> = EXT PDIFF N_WELL < 3 REGION SINGULAR
+DRC2_3::<2> = ENC PDIFF N_WELL < 6 REGION SQUARE ABUT == 0 OVERLAP SINGULAR
+---------------------------------------------------------------------------
+DRC2_4::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC2_3::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 79 OF 175  ELAPSED TIME = 1
+
+Layer PDIFF DELETED -- LVHEAP = 1/3/3
+
+Layer DRC2_3::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC2_3 COMPLETED. Number of Results = 0
+
+Layer DRC2_4::<1> DELETED -- LVHEAP = 1/3/3
+
+Layer DRC2_4::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC2_4 COMPLETED. Number of Results = 0
+
+DRC3_2::<1> = EXT POLY < 3 SINGULAR
+DRC3_1::<1> = INT POLY < 2 SINGULAR
+-----------------------------------
+DRC3_2::<1> (TYP=3 ECT=0 CCT=0)
+DRC3_1::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 81 OF 175  ELAPSED TIME = 1
+
+Layer DRC3_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC3_1 COMPLETED. Number of Results = 0
+
+Layer DRC3_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC3_2 COMPLETED. Number of Results = 0
+
+DRC3_3::<1> = PGATE TOUCH PSRCDRN == 1
+--------------------------------------
+DRC3_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 82 OF 175  ELAPSED TIME = 1
+
+Layer PGATE DELETED -- LVHEAP = 1/3/3
+
+Layer DRC3_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC3_3::<2> = NGATE TOUCH NSRCDRN == 1
+--------------------------------------
+DRC3_3::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 83 OF 175  ELAPSED TIME = 1
+
+Layer NGATE DELETED -- LVHEAP = 1/3/3
+
+Layer DRC3_3::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC3_5::<1> = EXT ACTIVE POLY < 1 REGION SQUARE ABUT == 0
+DRC3_3::<3> = ENC ACTIVE POLY < 2 REGION SQUARE ABUT == 0
+DRC3_4::<1> = ENC POLY ACTIVE < 3 REGION SQUARE ABUT == 0
+---------------------------------------------------------
+DRC3_5::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC3_3::<3> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC3_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 86 OF 175  ELAPSED TIME = 1
+
+Layer DRC3_3::<3> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC3_3 COMPLETED. Number of Results = 0
+
+Layer DRC3_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC3_4 COMPLETED. Number of Results = 0
+
+Layer DRC3_5::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC3_5 COMPLETED. Number of Results = 0
+
+DRC4.1p::nxtor = NSRCDRN OR GATES
+---------------------------------
+DRC4.1p::nxtor (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 87 OF 175  ELAPSED TIME = 1
+
+Layer NSRCDRN DELETED -- LVHEAP = 1/3/3
+
+DRC4.1p::<1> = ENC GATES DRC4.1p::nxtor < 3
+-------------------------------------------
+DRC4.1p::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 88 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.1p::nxtor DELETED -- LVHEAP = 1/3/3
+
+Layer DRC4.1p::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.1p COMPLETED. Number of Results = 0
+
+DRC4.1n::pxtor = PSRCDRN OR GATES
+---------------------------------
+DRC4.1n::pxtor (TYP=1 CFG=1 ECT=15 OCT=10 SRT=1 CMP=F MPN=6)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 89 OF 175  ELAPSED TIME = 1
+
+Layer PSRCDRN DELETED -- LVHEAP = 1/3/3
+
+DRC4.1n::<1> = ENC GATES DRC4.1n::pxtor < 3
+-------------------------------------------
+DRC4.1n::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 90 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.1n::pxtor DELETED -- LVHEAP = 1/3/3
+
+Layer DRC4.1n::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.1n COMPLETED. Number of Results = 0
+
+SELECT = N_PLUS_SELECT OR P_PLUS_SELECT
+---------------------------------------
+SELECT (TYP=1 CFG=1 ECT=8 OCT=8 SRT=1 CMP=F MPN=2)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 91 OF 175  ELAPSED TIME = 1
+
+DRC4.2::<1> = ENC ACTIVE SELECT < 2 ABUT == 0 OVERLAP SINGULAR
+--------------------------------------------------------------
+DRC4.2::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 92 OF 175  ELAPSED TIME = 1
+
+Layer SELECT DELETED -- LVHEAP = 1/3/3
+
+Layer DRC4.2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.2 COMPLETED. Number of Results = 0
+
+DRC4.3p::<1> = ENC CONTACT_TO_ACTIVE P_PLUS_SELECT < 1 ABUT == 0 OVERLAP SINGULAR
+---------------------------------------------------------------------------------
+DRC4.3p::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 93 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.3p::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.3p COMPLETED. Number of Results = 0
+
+DRC4.3n::<1> = ENC CONTACT_TO_ACTIVE N_PLUS_SELECT < 1 ABUT == 0 OVERLAP SINGULAR
+---------------------------------------------------------------------------------
+DRC4.3n::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 94 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.3n::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.3n COMPLETED. Number of Results = 0
+
+DRC4.4ps::<1> = EXT P_PLUS_SELECT < 2 NOT CONNECTED
+DRC4.4pw::<1> = INT P_PLUS_SELECT < 2
+---------------------------------------------------
+DRC4.4ps::<1> (TYP=3 ECT=0 CCT=0)
+DRC4.4pw::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 96 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.4pw::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.4pw COMPLETED. Number of Results = 0
+
+Layer DRC4.4ps::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.4ps COMPLETED. Number of Results = 0
+
+DRC4.4ns::<1> = EXT N_PLUS_SELECT < 2 NOT CONNECTED
+DRC4.4nw::<1> = INT N_PLUS_SELECT < 2
+---------------------------------------------------
+DRC4.4ns::<1> (TYP=3 ECT=0 CCT=0)
+DRC4.4nw::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 98 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.4nw::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.4nw COMPLETED. Number of Results = 0
+
+Layer DRC4.4ns::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.4ns COMPLETED. Number of Results = 0
+
+DRC4.4np::<1> = N_PLUS_SELECT AND P_PLUS_SELECT
+-----------------------------------------------
+DRC4.4np::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 99 OF 175  ELAPSED TIME = 1
+
+Layer DRC4.4np::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC4.4np COMPLETED. Number of Results = 0
+
+DRC5_1::<1> = NOT RECTANGLE CONTACT_TO_POLY == 2 BY == 2
+--------------------------------------------------------
+DRC5_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 100 OF 175  ELAPSED TIME = 1
+
+Layer DRC5_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC5_1 COMPLETED. Number of Results = 0
+
+PADS = OR PADS
+--------------
+PADS (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 101 OF 175  ELAPSED TIME = 1
+
+Original Layer PADS DELETED -- LVHEAP = 1/3/3
+
+DRC5_2::x = CONTACT_TO_POLY NOT PADS
+------------------------------------
+DRC5_2::x (TYP=1 CFG=1 ECT=4 OCT=2 SRT=1 CMP=F MPN=2)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 102 OF 175  ELAPSED TIME = 1
+
+DRC5_2::<1> = ENC DRC5_2::x POLY < 1.5 REGION SQUARE ABUT == 0 OVERLAP
+----------------------------------------------------------------------
+DRC5_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 103 OF 175  ELAPSED TIME = 1
+
+Layer DRC5_2::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC5_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC5_2 COMPLETED. Number of Results = 0
+
+DRC5_3::<1> = EXT CONTACT_TO_POLY < 3 SQUARE SINGULAR
+-----------------------------------------------------
+DRC5_3::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 104 OF 175  ELAPSED TIME = 1
+
+Layer DRC5_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC5_3 COMPLETED. Number of Results = 0
+
+DRC5_4::<1> = EXT CONTACT_TO_POLY GATES < 2 REGION ABUT == 0 SINGULAR
+---------------------------------------------------------------------
+DRC5_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 105 OF 175  ELAPSED TIME = 1
+
+Layer DRC5_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC5_4 COMPLETED. Number of Results = 0
+
+DRC6_1::<1> = NOT RECTANGLE CONTACT_TO_ACTIVE == 2 BY == 2
+----------------------------------------------------------
+DRC6_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 106 OF 175  ELAPSED TIME = 1
+
+Layer DRC6_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC6_1 COMPLETED. Number of Results = 0
+
+DRC6_2::x = CONTACT_TO_ACTIVE NOT PADS
+--------------------------------------
+DRC6_2::x (TYP=1 CFG=1 ECT=88 OCT=44 SRT=1 CMP=F MPN=44)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 107 OF 175  ELAPSED TIME = 1
+
+Layer PADS DELETED -- LVHEAP = 1/3/3
+
+DRC6_2::<1> = ENC DRC6_2::x ACTIVE < 1.5 REGION ABUT == 0 OVERLAP
+-----------------------------------------------------------------
+DRC6_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 108 OF 175  ELAPSED TIME = 1
+
+Layer DRC6_2::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC6_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC6_2 COMPLETED. Number of Results = 0
+
+DRC6_3::<1> = EXT CONTACT_TO_ACTIVE < 3 REGION SQUARE SINGULAR
+--------------------------------------------------------------
+DRC6_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 109 OF 175  ELAPSED TIME = 1
+
+Layer DRC6_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC6_3 COMPLETED. Number of Results = 0
+
+DRC6_4::<1> = EXT CONTACT_TO_ACTIVE GATES < 2 REGION SQUARE ABUT == 0 SINGULAR
+------------------------------------------------------------------------------
+DRC6_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 110 OF 175  ELAPSED TIME = 1
+
+Layer GATES DELETED -- LVHEAP = 1/3/3
+
+Layer DRC6_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC6_4 COMPLETED. Number of Results = 0
+
+DRC7_2::<1> = EXT METAL1 < 3 SINGULAR
+DRC7_1::<1> = INT METAL1 < 3 SINGULAR
+-------------------------------------
+DRC7_2::<1> (TYP=3 ECT=0 CCT=0)
+DRC7_1::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 112 OF 175  ELAPSED TIME = 1
+
+Layer DRC7_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC7_1 COMPLETED. Number of Results = 0
+
+Layer DRC7_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC7_2 COMPLETED. Number of Results = 0
+
+BOTH_CONTACT = CONTACT_TO_POLY OR CONTACT_TO_ACTIVE
+---------------------------------------------------
+BOTH_CONTACT (TYP=1 CFG=1 ECT=92 OCT=46 SRT=1 CMP=F MPN=46)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 113 OF 175  ELAPSED TIME = 1
+
+Layer CONTACT_TO_ACTIVE DELETED -- LVHEAP = 1/3/3
+
+DRC7_3::<1> = ENC BOTH_CONTACT METAL1 < 1 REGION SQUARE ABUT == 0
+-----------------------------------------------------------------
+DRC7_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 114 OF 175  ELAPSED TIME = 1
+
+Layer BOTH_CONTACT DELETED -- LVHEAP = 1/3/3
+
+Layer DRC7_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC7_3 COMPLETED. Number of Results = 0
+
+DRC7_4::widem = METAL1 WITH WIDTH > 10
+DRC7_4::thinm = METAL1 WITH WIDTH <= 10
+---------------------------------------
+DRC7_4::widem (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC7_4::thinm (TYP=1 CFG=1 ECT=32 OCT=27 SRT=1 CMP=F MPN=9)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 116 OF 175  ELAPSED TIME = 1
+
+DRC7_4::<1> = EXT DRC7_4::widem < 6 SINGULAR
+--------------------------------------------
+DRC7_4::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 117 OF 175  ELAPSED TIME = 1
+
+Layer DRC7_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC7_4::<2> = EXT DRC7_4::widem DRC7_4::thinm < 6 SINGULAR
+----------------------------------------------------------
+DRC7_4::<2> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 118 OF 175  ELAPSED TIME = 1
+
+Layer DRC7_4::widem DELETED -- LVHEAP = 1/3/3
+
+Layer DRC7_4::thinm DELETED -- LVHEAP = 1/3/3
+
+Layer DRC7_4::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC7_4 COMPLETED. Number of Results = 0
+
+DRC8_1::x = NOT RECTANGLE VIA == 2 BY == 2
+------------------------------------------
+DRC8_1::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 119 OF 175  ELAPSED TIME = 1
+
+OVERGLASS = OR OVERGLASS
+------------------------
+OVERGLASS (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 120 OF 175  ELAPSED TIME = 1
+
+Original Layer OVERGLASS DELETED -- LVHEAP = 1/3/3
+
+DRC8_1::<1> = DRC8_1::x OUTSIDE OVERGLASS
+-----------------------------------------
+DRC8_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 121 OF 175  ELAPSED TIME = 1
+
+Layer DRC8_1::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC8_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC8_1 COMPLETED. Number of Results = 0
+
+DRC8_2::<1> = EXT VIA < 3 REGION SQUARE SINGULAR
+------------------------------------------------
+DRC8_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 122 OF 175  ELAPSED TIME = 1
+
+Layer DRC8_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC8_2 COMPLETED. Number of Results = 0
+
+DRC8_3::<1> = ENC VIA METAL1 < 1 REGION SQUARE ABUT == 0
+--------------------------------------------------------
+DRC8_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 123 OF 175  ELAPSED TIME = 1
+
+Layer METAL1 DELETED -- LVHEAP = 1/3/3
+
+Layer DRC8_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC8_3 COMPLETED. Number of Results = 0
+
+DRC9_2::<1> = EXT METAL2 < 3 SINGULAR
+DRC9_1::<1> = INT METAL2 < 3 SINGULAR
+-------------------------------------
+DRC9_2::<1> (TYP=3 ECT=0 CCT=0)
+DRC9_1::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 125 OF 175  ELAPSED TIME = 1
+
+Layer DRC9_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC9_1 COMPLETED. Number of Results = 0
+
+Layer DRC9_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC9_2 COMPLETED. Number of Results = 0
+
+DRC9_3::<1> = ENC VIA METAL2 < 1 REGION SQUARE ABUT == 0
+--------------------------------------------------------
+DRC9_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 126 OF 175  ELAPSED TIME = 1
+
+Layer VIA DELETED -- LVHEAP = 1/3/3
+
+Layer DRC9_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC9_3 COMPLETED. Number of Results = 0
+
+DRC9_4::widem = METAL2 WITH WIDTH > 10
+DRC9_4::thinm = METAL2 WITH WIDTH <= 10
+---------------------------------------
+DRC9_4::widem (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC9_4::thinm (TYP=1 CFG=1 ECT=10 OCT=9 SRT=1 CMP=F MPN=3)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 128 OF 175  ELAPSED TIME = 1
+
+DRC9_4::<1> = EXT DRC9_4::widem < 6 SINGULAR
+--------------------------------------------
+DRC9_4::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 129 OF 175  ELAPSED TIME = 1
+
+Layer DRC9_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC9_4::<2> = EXT DRC9_4::widem DRC9_4::thinm < 6 SINGULAR
+----------------------------------------------------------
+DRC9_4::<2> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 130 OF 175  ELAPSED TIME = 1
+
+Layer DRC9_4::widem DELETED -- LVHEAP = 1/3/3
+
+Layer DRC9_4::thinm DELETED -- LVHEAP = 1/3/3
+
+Layer DRC9_4::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC9_4 COMPLETED. Number of Results = 0
+
+CAP = POLY AND ELECTRODE
+------------------------
+CAP (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 131 OF 175  ELAPSED TIME = 1
+
+DRC11_2::<1> = EXT CAP < 3 REGION SQUARE SINGULAR
+DRC11_1::<1> = INT CAP < 7 REGION SQUARE SINGULAR
+-------------------------------------------------
+DRC11_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC11_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 133 OF 175  ELAPSED TIME = 1
+
+Layer DRC11_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_1 COMPLETED. Number of Results = 0
+
+Layer DRC11_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_2 COMPLETED. Number of Results = 0
+
+DRC11_3::<1> = ENC CAP POLY < 5 REGION SQUARE ABUT == 0 OVERLAP
+---------------------------------------------------------------
+DRC11_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 134 OF 175  ELAPSED TIME = 1
+
+Layer DRC11_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_3 COMPLETED. Number of Results = 0
+
+DRC11_4::<1> = EXT ELECTRODE ACTIVE < 2 REGION SQUARE SINGULAR
+--------------------------------------------------------------
+DRC11_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 135 OF 175  ELAPSED TIME = 1
+
+Layer DRC11_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC11_4::<2> = EXT ELECTRODE N_WELL < 2 REGION SQUARE SINGULAR
+--------------------------------------------------------------
+DRC11_4::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 136 OF 175  ELAPSED TIME = 1
+
+Layer N_WELL DELETED -- LVHEAP = 1/3/3
+
+Layer DRC11_4::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_4 COMPLETED. Number of Results = 0
+
+DRC11_5::<1> = EXT CAP CONTACT_TO_POLY < 6 REGION SQUARE SINGULAR
+-----------------------------------------------------------------
+DRC11_5::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 137 OF 175  ELAPSED TIME = 1
+
+Layer CONTACT_TO_POLY DELETED -- LVHEAP = 1/3/3
+
+Layer DRC11_5::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_5 COMPLETED. Number of Results = 0
+
+DRC11_sel::x = POLY TOUCH CAP
+-----------------------------
+DRC11_sel::x (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 138 OF 175  ELAPSED TIME = 1
+
+DRC11_sel::y = ELECTRODE TOUCH CAP
+----------------------------------
+DRC11_sel::y (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 139 OF 175  ELAPSED TIME = 1
+
+DRC11_sel::z = DRC11_sel::x OR DRC11_sel::y
+-------------------------------------------
+DRC11_sel::z (TYP=1 CFG=0 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 140 OF 175  ELAPSED TIME = 1
+
+Layer DRC11_sel::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC11_sel::y DELETED -- LVHEAP = 1/3/3
+
+DRC11_sel::<1> = DRC11_sel::z AND N_PLUS_SELECT
+-----------------------------------------------
+DRC11_sel::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 141 OF 175  ELAPSED TIME = 1
+
+Layer N_PLUS_SELECT DELETED -- LVHEAP = 1/3/3
+
+Layer DRC11_sel::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC11_sel::<2> = DRC11_sel::z AND P_PLUS_SELECT
+-----------------------------------------------
+DRC11_sel::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 142 OF 175  ELAPSED TIME = 1
+
+Layer DRC11_sel::z DELETED -- LVHEAP = 1/3/3
+
+Layer P_PLUS_SELECT DELETED -- LVHEAP = 1/3/3
+
+Layer DRC11_sel::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC11_sel COMPLETED. Number of Results = 0
+
+DRC12_1::x = ELECTRODE NOT CAP
+------------------------------
+DRC12_1::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 143 OF 175  ELAPSED TIME = 1
+
+DRC12_1::<1> = EXT DRC12_1::x < 2 REGION SQUARE SINGULAR
+--------------------------------------------------------
+DRC12_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 144 OF 175  ELAPSED TIME = 1
+
+Layer DRC12_1::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC12_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC12_1 COMPLETED. Number of Results = 0
+
+DRC12_2::<1> = EXT ELECTRODE < 3 REGION SQUARE SINGULAR
+-------------------------------------------------------
+DRC12_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 145 OF 175  ELAPSED TIME = 1
+
+Layer DRC12_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC12_2 COMPLETED. Number of Results = 0
+
+DRC13_1::<1> = NOT RECTANGLE CONTACT_TO_ELECTRODE == 2 BY == 2
+--------------------------------------------------------------
+DRC13_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 146 OF 175  ELAPSED TIME = 1
+
+Layer DRC13_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC13_1 COMPLETED. Number of Results = 0
+
+DRC13_2::<1> = EXT CONTACT_TO_ELECTRODE < 3 SQUARE SINGULAR
+-----------------------------------------------------------
+DRC13_2::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 147 OF 175  ELAPSED TIME = 1
+
+Layer DRC13_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC13_2 COMPLETED. Number of Results = 0
+
+DRC13_3::x = CAP AND CONTACT_TO_ELECTRODE
+-----------------------------------------
+DRC13_3::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 148 OF 175  ELAPSED TIME = 1
+
+DRC13_3::<1> = ENC DRC13_3::x ELECTRODE < 3 REGION SQUARE ABUT == 0 OVERLAP
+---------------------------------------------------------------------------
+DRC13_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 149 OF 175  ELAPSED TIME = 1
+
+Layer DRC13_3::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC13_3::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC13_3 COMPLETED. Number of Results = 0
+
+DRC13_4::x = CONTACT_TO_ELECTRODE NOT CAP
+-----------------------------------------
+DRC13_4::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 150 OF 175  ELAPSED TIME = 1
+
+Layer CAP DELETED -- LVHEAP = 1/3/3
+
+DRC13_4::<1> = ENC DRC13_4::x ELECTRODE < 2 REGION SQUARE ABUT == 0 OVERLAP
+---------------------------------------------------------------------------
+DRC13_4::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 151 OF 175  ELAPSED TIME = 1
+
+Layer DRC13_4::x DELETED -- LVHEAP = 1/3/3
+
+Layer ELECTRODE DELETED -- LVHEAP = 1/3/3
+
+Layer DRC13_4::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC13_4 COMPLETED. Number of Results = 0
+
+DRC13_5::<1> = EXT CONTACT_TO_ELECTRODE POLY < 3 REGION SQUARE SINGULAR
+-----------------------------------------------------------------------
+DRC13_5::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 152 OF 175  ELAPSED TIME = 1
+
+Layer POLY DELETED -- LVHEAP = 1/3/3
+
+Layer DRC13_5::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC13_5::<2> = EXT CONTACT_TO_ELECTRODE ACTIVE < 3 REGION SQUARE SINGULAR
+-------------------------------------------------------------------------
+DRC13_5::<2> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 153 OF 175  ELAPSED TIME = 1
+
+Layer CONTACT_TO_ELECTRODE DELETED -- LVHEAP = 1/3/3
+
+Layer ACTIVE DELETED -- LVHEAP = 1/3/3
+
+Layer DRC13_5::<2> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC13_5 COMPLETED. Number of Results = 0
+
+DRC14_1::x = NOT RECTANGLE VIA2 == 2 BY == 2
+--------------------------------------------
+DRC14_1::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 154 OF 175  ELAPSED TIME = 1
+
+DRC14_1::<1> = DRC14_1::x OUTSIDE OVERGLASS
+-------------------------------------------
+DRC14_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 155 OF 175  ELAPSED TIME = 1
+
+Layer DRC14_1::x DELETED -- LVHEAP = 1/3/3
+
+Layer DRC14_1::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC14_1 COMPLETED. Number of Results = 0
+
+DRC14_2::<1> = EXT VIA2 < 3 REGION SQUARE SINGULAR
+--------------------------------------------------
+DRC14_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 156 OF 175  ELAPSED TIME = 1
+
+Layer DRC14_2::<1> DELETED -- LVHEAP = 1/3/3
+
+DRC RuleCheck DRC14_2 COMPLETED. Number of Results = 0
+
+DRC14_3::<1> = ENC VIA2 METAL2 < 1 REGION SQUARE ABUT == 0
+----------------------------------------------------------
+DRC14_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 1/3/3  OPS COMPLETE = 157 OF 175  ELAPSED TIME = 1
+
+Layer METAL2 DELETED -- LVHEAP = 0/3/3
+
+Layer DRC14_3::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC14_3 COMPLETED. Number of Results = 0
+
+DRC15_2::<1> = EXT METAL3 < 3 SINGULAR
+DRC15_1::<1> = INT METAL3 < 3 SINGULAR
+--------------------------------------
+DRC15_2::<1> (TYP=3 ECT=0 CCT=0)
+DRC15_1::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 159 OF 175  ELAPSED TIME = 1
+
+Layer DRC15_1::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC15_1 COMPLETED. Number of Results = 0
+
+Layer DRC15_2::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC15_2 COMPLETED. Number of Results = 0
+
+DRC15_3::<1> = ENC VIA2 METAL3 < 1 REGION SQUARE ABUT == 0
+----------------------------------------------------------
+DRC15_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 160 OF 175  ELAPSED TIME = 1
+
+Layer VIA2 DELETED -- LVHEAP = 0/3/3
+
+Layer DRC15_3::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC15_3 COMPLETED. Number of Results = 0
+
+DRC15_4::widem = METAL3 WITH WIDTH > 10
+DRC15_4::thinm = METAL3 WITH WIDTH <= 10
+----------------------------------------
+DRC15_4::widem (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC15_4::thinm (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 162 OF 175  ELAPSED TIME = 1
+
+DRC15_4::<1> = EXT DRC15_4::widem < 6 SINGULAR
+----------------------------------------------
+DRC15_4::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 163 OF 175  ELAPSED TIME = 1
+
+Layer DRC15_4::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC15_4::<2> = EXT DRC15_4::widem DRC15_4::thinm < 6 SINGULAR
+-------------------------------------------------------------
+DRC15_4::<2> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 164 OF 175  ELAPSED TIME = 1
+
+Layer DRC15_4::widem DELETED -- LVHEAP = 0/3/3
+
+Layer DRC15_4::thinm DELETED -- LVHEAP = 0/3/3
+
+Layer DRC15_4::<2> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC15_4 COMPLETED. Number of Results = 0
+
+DRC21_1::x = NOT RECTANGLE VIA3 == 2 BY == 2
+--------------------------------------------
+DRC21_1::x (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 165 OF 175  ELAPSED TIME = 1
+
+DRC21_1::<1> = DRC21_1::x OUTSIDE OVERGLASS
+-------------------------------------------
+DRC21_1::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 166 OF 175  ELAPSED TIME = 1
+
+Layer DRC21_1::x DELETED -- LVHEAP = 0/3/3
+
+Layer OVERGLASS DELETED -- LVHEAP = 0/3/3
+
+Layer DRC21_1::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC21_1 COMPLETED. Number of Results = 0
+
+DRC21_2::<1> = EXT VIA3 < 3 REGION SQUARE SINGULAR
+--------------------------------------------------
+DRC21_2::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 167 OF 175  ELAPSED TIME = 1
+
+Layer DRC21_2::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC21_2 COMPLETED. Number of Results = 0
+
+DRC21_3::<1> = ENC VIA3 METAL3 < 1 REGION SQUARE ABUT == 0
+----------------------------------------------------------
+DRC21_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 168 OF 175  ELAPSED TIME = 1
+
+Layer METAL3 DELETED -- LVHEAP = 0/3/3
+
+Layer DRC21_3::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC21_3 COMPLETED. Number of Results = 0
+
+DRC22_2::<1> = EXT METAL4 < 6 SINGULAR
+DRC22_1::<1> = INT METAL4 < 6 SINGULAR
+--------------------------------------
+DRC22_2::<1> (TYP=3 ECT=0 CCT=0)
+DRC22_1::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 170 OF 175  ELAPSED TIME = 1
+
+Layer DRC22_1::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC22_1 COMPLETED. Number of Results = 0
+
+Layer DRC22_2::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC22_2 COMPLETED. Number of Results = 0
+
+DRC22_3::<1> = ENC VIA3 METAL4 < 2 REGION SQUARE ABUT == 0
+----------------------------------------------------------
+DRC22_3::<1> (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 171 OF 175  ELAPSED TIME = 1
+
+Layer VIA3 DELETED -- LVHEAP = 0/3/3
+
+Layer DRC22_3::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC RuleCheck DRC22_3 COMPLETED. Number of Results = 0
+
+DRC22_4::widem = METAL4 WITH WIDTH > 10
+DRC22_4::thinm = METAL4 WITH WIDTH <= 10
+----------------------------------------
+DRC22_4::widem (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+DRC22_4::thinm (TYP=1 CFG=1 ECT=0 OCT=0 SRT=1 CMP=F MPN=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 173 OF 175  ELAPSED TIME = 1
+
+Layer METAL4 DELETED -- LVHEAP = 0/3/3
+
+DRC22_4::<1> = EXT DRC22_4::widem < 12 SINGULAR
+-----------------------------------------------
+DRC22_4::<1> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 174 OF 175  ELAPSED TIME = 1
+
+Layer DRC22_4::<1> DELETED -- LVHEAP = 0/3/3
+
+DRC22_4::<2> = EXT DRC22_4::widem DRC22_4::thinm < 12 SINGULAR
+--------------------------------------------------------------
+DRC22_4::<2> (TYP=3 ECT=0 CCT=0)
+CPU TIME = 0  REAL TIME = 0  LVHEAP = 0/3/3  OPS COMPLETE = 175 OF 175  ELAPSED TIME = 1
+
+Layer DRC22_4::widem DELETED -- LVHEAP = 0/3/3
+
+Layer DRC22_4::thinm DELETED -- LVHEAP = 0/3/3
+
+Layer DRC22_4::<2> DELETED -- LVHEAP = 0/3/3
+
+WRITE to ASCII DRC Results Database /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results COMPLETED
+
+DRC RuleCheck DRC22_4 COMPLETED. Number of Results = 0
+
+Cumulative ONE-LAYER BOOLEAN Time: CPU = 0  REAL = 0
+Cumulative TWO-LAYER BOOLEAN Time: CPU = 0  REAL = 0
+Cumulative POLYGON TOPOLOGICAL Time: CPU = 0  REAL = 0
+Cumulative POLYGON MEASUREMENT Time: CPU = 0  REAL = 0
+Cumulative SIZE Time: CPU = 0  REAL = 0
+Cumulative ONE-LAYER DRC Time: CPU = 0  REAL = 0
+Cumulative TWO-LAYER DRC Time: CPU = 0  REAL = 0
+Cumulative MISCELLANEOUS Time: CPU = 0  REAL = 0
+Cumulative CONNECT Time: CPU = 0  REAL = 0
+Cumulative RDB Time: CPU = 0  REAL = 0
+
+--- CALIBRE::DRC-F EXECUTIVE MODULE COMPLETED.  CPU TIME = 0  REAL TIME = 0
+--- TOTAL RULECHECKS EXECUTED = 81
+--- TOTAL RESULTS GENERATED = 0
+--- DRC RESULTS DATABASE FILE = /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results (ASCII)
+
+--- CALIBRE::DRC-F COMPLETED - Mon Jun  6 01:28:34 2011
+--- TOTAL CPU TIME = 0  REAL TIME = 0
+--- SUMMARY REPORT FILE = drc.summary
+

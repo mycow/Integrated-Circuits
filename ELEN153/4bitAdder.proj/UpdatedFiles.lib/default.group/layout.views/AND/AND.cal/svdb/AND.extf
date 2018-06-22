@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtRunTimes 1368488296 1368488297
+lvs_ExtOutFile RUNDIR /DCNFS/users/student/rguyol/UpdatedELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/AND/AND.cal
+lvs_ExtOutFile LAYOUT_NETLIST /DCNFS/users/student/rguyol/UpdatedELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/AND/AND.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

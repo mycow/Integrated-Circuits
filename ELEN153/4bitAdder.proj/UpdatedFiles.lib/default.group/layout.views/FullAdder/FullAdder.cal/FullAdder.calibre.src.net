@@ -1,0 +1,73 @@
+* LVS netlist generated with ICnet by 'mhao' on Mon Nov  7 2016 at 17:26:04
+
+*
+* Globals.
+*
+.global ground VDD
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/AND
+*
+.subckt AND  OUT A B
+
+        M1 OUT N$4 ground ground N L=.4u W=1.2u M=1
+        M3 N$6 A ground ground N L=.4u W=2.4u M=1
+        M5 N$4 B N$6 ground N L=.4u W=2.4u M=1
+        M4 N$4 B VDD VDD P L=.4u W=2.4u M=1
+        M6 N$4 A VDD VDD P L=.4u W=2.4u M=1
+        M2 OUT N$4 VDD VDD P L=.4u W=2.4u M=1
+.ends AND
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+.subckt inverter  OUT IN
+
+        M2 OUT IN VDD VDD P L=0.4u W=3.6u M=1
+        M1 OUT IN ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153_XOR
+*
+.subckt 153_XOR  XOR A B
+
+        X_INVERTER1 XOR N$3 inverter
+        M2 B A N$3 ground N L=0.4u W=1.2u M=2
+        M4 A B N$3 ground N L=0.4u W=1.2u M=2
+        M3 N$3 B N$2 VDD P L=0.4u W=2.4u M=2
+        M1 N$2 A VDD VDD P L=0.4u W=2.4u M=2
+.ends 153_XOR
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/HalfAdder
+*
+.subckt HalfAdder  C S X Y
+
+        X_AND1 C Y X AND
+        X_153_XOR1 S Y X 153_XOR
+.ends HalfAdder
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/OR
+*
+.subckt OR  OUT A B
+
+        M3 N$12 A ground ground N L=.4u W=1.2u M=1
+        M1 N$12 B ground ground N L=.4u W=1.2u M=1
+        M6 OUT N$12 VDD VDD P L=.4u W=2.4u M=1
+        M5 OUT N$12 ground ground N L=.4u W=1.2u M=1
+        M4 N$12 B N$8 VDD P L=.4u W=4.8u M=1
+        M2 N$8 A VDD VDD P L=.4u W=4.8u M=1
+.ends OR
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/FullAdder
+*
+.subckt FullAdder  Cout Sout Cin Xin Yin
+
+        X_HALFADDER1 N$2 N$426 Xin Yin HalfAdder
+        X_HALFADDER2 N$3 Sout N$426 Cin HalfAdder
+        X_OR1 Cout N$2 N$3 OR
+.ends FullAdder
+

@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtRunTimes 1336519618 1336519619
+lvs_ExtOutFile RUNDIR /DCNFS/users/student/tsongati/ELEN153.proj/LAB2.lib/default.group/layout.views/elen153XOR/elen153XOR.cal
+lvs_ExtOutFile LAYOUT_NETLIST /DCNFS/users/student/tsongati/ELEN153.proj/LAB2.lib/default.group/layout.views/elen153XOR/elen153XOR.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

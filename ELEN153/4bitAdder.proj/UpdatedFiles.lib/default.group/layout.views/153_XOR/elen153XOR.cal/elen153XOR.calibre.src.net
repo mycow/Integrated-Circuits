@@ -1,0 +1,28 @@
+* LVS netlist generated with ICnet by 'tsongati' on Tue May  8 2012 at 16:26:58
+
+*
+* Globals.
+*
+.global VDD ground
+
+*
+* Component pathname : $LAB2/default.group/logic.views/inverter
+*
+.subckt inverter  OUT IN
+
+        M2 OUT IN VDD VDD P L=0.4u W=3.6u M=1
+        M1 OUT IN ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* Component pathname : $LAB2/default.group/logic.views/elen153XOR
+*
+.subckt elen153XOR  XOR A B
+
+        X_INVERTER1 XOR N$3 inverter
+        M2 B A N$3 ground N L=0.4u W=1.2u M=2
+        M4 A B N$3 ground N L=0.4u W=1.2u M=2
+        M3 N$3 B N$2 VDD P L=0.4u W=2.4u M=2
+        M1 N$2 A VDD VDD P L=0.4u W=2.4u M=2
+.ends elen153XOR
+

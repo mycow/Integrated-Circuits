@@ -1,0 +1,19 @@
+A 5 u Eddm_design_viewpoint 5817fb08d878.03.81.d2.10.4c.00.03.14 1 2 9 0
+V v 1 4 5817fb08d878.03.81.d2.10.4c.01.03.14
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/part" 3 Eddm_part 5817e9a26996.03.81.d2.10.4c.00.4b.1a 5817e9a0e56b.03.81.d2.10.4c.00.34.53
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/FullAdder/FullAdder" 1 mgc_symbol 580ea9853984.03.81.d2.10.50.01.47.d4 5817e9a0e582.03.81.d2.10.4c.00.34.53
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic" 4 mgc_schematic 5817faecca0e.03.81.d2.10.4c.00.02.de 5817e9a0e51a.03.81.d2.10.4c.00.34.53
+R cspuv 3 "$UpdatedFiles/default.group/logic.views/OR/part" 2 Eddm_part 4fa997204e2c.03.81.d2.10.92.00.57.b0 518d96200cf6.03.81.d2.10.8f.00.54.ba
+R cspuv 4 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 3 Eddm_part 5817e99aa9eb.03.81.d2.10.4c.00.4a.e0 5817e998ad53.03.81.d2.10.4c.00.34.53
+R cspuv 5 "$UpdatedFiles/default.group/logic.views/OR/schematic" 1 mgc_schematic 4fa995801185.03.81.d2.10.92.01.57.b0 518d96200d23.03.81.d2.10.8f.00.54.ba
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 6 "$UpdatedFiles/default.group/logic.views/OR/OR" 1 mgc_symbol 4fa9972044fd.03.81.d2.10.92.01.57.b0 518d96200ba0.03.81.d2.10.8f.00.54.ba
+R cspuv 7 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 580ea57f96c0.03.81.d2.10.50.01.47.d4 5817e998ad1b.03.81.d2.10.4c.00.34.53
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 8 "$UpdatedFiles/default.group/logic.views/HalfAdder/HalfAdder" 1 mgc_symbol 580ea76c7524.03.81.d2.10.50.01.47.d4 5817e998ada5.03.81.d2.10.4c.00.34.53

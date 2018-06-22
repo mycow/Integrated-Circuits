@@ -1,0 +1,7 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /DCNFS/users/student/rguyol/UpdatedELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/XOR/XOR.cal
+*drcLayoutPaths: XOR.calibre.gds
+*drcLayoutPrimary: XOR
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: XOR.drc.results
+*drcSummaryFile: XOR.drc.summary

@@ -1,0 +1,18 @@
+* ELDO netlist generated with ICnet by 'rguyol' on Fri May 10 2013 at 16:58:03
+
+*
+* Globals.
+*
+.global ground vdd
+
+*
+* MAIN CELL: Component pathname : $UpdatedFiles/default.group/logic.views/AND
+*
+        m1 out n$4 ground ground N L=.4u W=1.2u M=1
+        m3 n$6 b ground ground N L=.4u W=2.4u M=1
+        m5 n$4 a n$6 ground N L=.4u W=2.4u M=1
+        m4 n$4 b vdd vdd P L=.4u W=2.4u M=1
+        m6 n$4 a vdd vdd P L=.4u W=2.4u M=1
+        m2 out n$4 vdd vdd P L=.4u W=2.4u M=1
+*
+.end

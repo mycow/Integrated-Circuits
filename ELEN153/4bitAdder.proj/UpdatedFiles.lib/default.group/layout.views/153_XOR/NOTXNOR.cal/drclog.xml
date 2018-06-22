@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="tsongati"
+ datestamp="Mon Jun  6 01:28:34 2011
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1307348914" drc_file="$FInalproject/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>

@@ -1,0 +1,9 @@
+Lab1
+.option post=1
+Vds 1 0
+Vgs 2 0
+M1 1 2 0 PCH L=12u W=54u
+.model PCH PMOS (LEVEL=1)
+.DC Vds 0 -5 0.1 Vgs -1 -5 1
+.plot Id(M1)
+.end

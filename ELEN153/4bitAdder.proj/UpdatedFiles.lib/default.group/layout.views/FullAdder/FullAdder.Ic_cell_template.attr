@@ -1,0 +1,34 @@
+A 5 u Ic_cell_template 5817ed9f895d.03.81.d2.10.4c.00.58.6d 12 4 5 0
+V v 8 1 5817fa239239.03.81.d2.10.4c.00.77.3c
+F f 8 "FullAdder.iccel_8"
+V v 9 1 5817fafc2623.03.81.d2.10.4c.00.78.10
+F f 9 "FullAdder.iccel_9"
+V v 10 1 5817fd0cb5d8.03.81.d2.10.4c.00.03.14
+F f 10 "FullAdder.iccel_10"
+V v 11 1 5817fd909440.03.81.d2.10.4c.00.03.14
+F f 11 "FullAdder.iccel_11"
+V v 12 1 58212adec516.03.81.d2.10.54.00.77.12
+F f 12 "FullAdder.iccel_12"
+O 12
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/HalfAdder/HalfAdder" 14 Ic_cell_template 58212ade965e.03.81.d2.10.54.00.77.12 5817e99932d9.03.81.d2.10.4c.00.34.53
+R csduv 3 "$UpdatedFiles/default.group/layout.views/OR/OR" 20 Ic_cell_template 51902d538f68.03.81.d2.10.4c.00.60.5b 518d9620791f.03.81.d2.10.8f.00.54.ba
+R csduv 4 "$UpdatedFiles/default.group/layout_cfg.views/FullAdder/SDL" 1 Eddm_design_viewpoint 5817fb08d878.03.81.d2.10.4c.01.03.14 5817fb08d878.03.81.d2.10.4c.00.03.14
+O 11
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/HalfAdder/HalfAdder" 13 Ic_cell_template 5817f676ee0f.03.81.d2.10.4c.00.6a.23 5817e99932d9.03.81.d2.10.4c.00.34.53
+R csduv 3 "$UpdatedFiles/default.group/layout.views/OR/OR" 20 Ic_cell_template 51902d538f68.03.81.d2.10.4c.00.60.5b 518d9620791f.03.81.d2.10.8f.00.54.ba
+R csduv 4 "$UpdatedFiles/default.group/layout_cfg.views/FullAdder/SDL" 1 Eddm_design_viewpoint 5817fb08d878.03.81.d2.10.4c.01.03.14 5817fb08d878.03.81.d2.10.4c.00.03.14
+O 10
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/HalfAdder/HalfAdder" 13 Ic_cell_template 5817f676ee0f.03.81.d2.10.4c.00.6a.23 5817e99932d9.03.81.d2.10.4c.00.34.53
+R csduv 3 "$UpdatedFiles/default.group/layout.views/OR/OR" 20 Ic_cell_template 51902d538f68.03.81.d2.10.4c.00.60.5b 518d9620791f.03.81.d2.10.8f.00.54.ba
+R csduv 4 "$UpdatedFiles/default.group/layout_cfg.views/FullAdder/SDL" 1 Eddm_design_viewpoint 5817fb08d878.03.81.d2.10.4c.01.03.14 5817fb08d878.03.81.d2.10.4c.00.03.14
+O 9
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/HalfAdder/HalfAdder" 13 Ic_cell_template 5817f676ee0f.03.81.d2.10.4c.00.6a.23 5817e99932d9.03.81.d2.10.4c.00.34.53
+R csduv 3 "$UpdatedFiles/default.group/layout.views/OR/OR" 20 Ic_cell_template 51902d538f68.03.81.d2.10.4c.00.60.5b 518d9620791f.03.81.d2.10.8f.00.54.ba
+O 8
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/HalfAdder/HalfAdder" 13 Ic_cell_template 5817f676ee0f.03.81.d2.10.4c.00.6a.23 5817e99932d9.03.81.d2.10.4c.00.34.53
+R csduv 3 "$UpdatedFiles/default.group/layout.views/OR/OR" 20 Ic_cell_template 51902d538f68.03.81.d2.10.4c.00.60.5b 518d9620791f.03.81.d2.10.8f.00.54.ba

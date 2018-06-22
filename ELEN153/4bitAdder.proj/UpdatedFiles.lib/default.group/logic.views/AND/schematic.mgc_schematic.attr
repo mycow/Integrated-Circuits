@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 518d8930b437.03.81.d2.10.8f.00.38.0d 4 2 1 0
+V v 2 1 4fa98ca691ef.03.81.d2.10.92.00.38.39
+F o 0 ""
+V v 3 1 4fa994f7e392.03.81.d2.10.92.00.4e.c9
+F o 0 ""
+V v 4 1 5190210a3127.03.81.d2.10.4c.00.33.f0
+F o 0 ""
+O 4
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/AND/schematic/sheet1" 3 mgc_sheet 5190210a2f68.03.81.d2.10.4c.00.33.f0 518d8930b468.03.81.d2.10.8f.00.38.0d
+O 3
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/AND/schematic/sheet1" 2 mgc_sheet 4fa994f7dfbe.03.81.d2.10.92.00.4e.c9 518d8930b468.03.81.d2.10.8f.00.38.0d
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/AND/schematic/sheet1" 1 mgc_sheet 4fa98b711c7e.03.81.d2.10.92.01.38.39 518d8930b468.03.81.d2.10.8f.00.38.0d

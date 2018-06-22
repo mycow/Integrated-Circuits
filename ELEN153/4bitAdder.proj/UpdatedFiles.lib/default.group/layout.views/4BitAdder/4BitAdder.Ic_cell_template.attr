@@ -1,0 +1,31 @@
+A 5 u Ic_cell_template 5817fdf97a74.03.81.d2.10.4c.00.10.72 11 4 4 0
+V v 7 1 58180ac332da.03.81.d2.10.4c.00.28.85
+F f 7 "4BitAdder.iccel_7"
+V v 8 1 58180ad70644.03.81.d2.10.4c.00.28.85
+F f 8 "4BitAdder.iccel_8"
+V v 9 1 5821282d9e26.03.81.d2.10.54.00.6a.13
+F f 9 "4BitAdder.iccel_9"
+V v 10 1 582128a9c99e.03.81.d2.10.54.00.6a.13
+F f 10 "4BitAdder.iccel_10"
+V v 11 1 58212adef218.03.81.d2.10.54.00.77.12
+F f 11 "4BitAdder.iccel_11"
+O 11
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/FullAdder/FullAdder" 12 Ic_cell_template 58212adec516.03.81.d2.10.54.00.77.12 5817ed9f895d.03.81.d2.10.4c.00.58.6d
+R csduv 3 "$UpdatedFiles/default.group/layout_cfg.views/4BitAdder/SDL" 1 Eddm_design_viewpoint 581809800f61.03.81.d2.10.4c.01.28.85 581809800f61.03.81.d2.10.4c.00.28.85
+O 10
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/FullAdder/FullAdder" 11 Ic_cell_template 5817fd909440.03.81.d2.10.4c.00.03.14 5817ed9f895d.03.81.d2.10.4c.00.58.6d
+R csduv 3 "$UpdatedFiles/default.group/layout_cfg.views/4BitAdder/SDL" 1 Eddm_design_viewpoint 581809800f61.03.81.d2.10.4c.01.28.85 581809800f61.03.81.d2.10.4c.00.28.85
+O 9
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/FullAdder/FullAdder" 11 Ic_cell_template 5817fd909440.03.81.d2.10.4c.00.03.14 5817ed9f895d.03.81.d2.10.4c.00.58.6d
+R csduv 3 "$UpdatedFiles/default.group/layout_cfg.views/4BitAdder/SDL" 1 Eddm_design_viewpoint 581809800f61.03.81.d2.10.4c.01.28.85 581809800f61.03.81.d2.10.4c.00.28.85
+O 8
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/FullAdder/FullAdder" 11 Ic_cell_template 5817fd909440.03.81.d2.10.4c.00.03.14 5817ed9f895d.03.81.d2.10.4c.00.58.6d
+R csduv 3 "$UpdatedFiles/default.group/layout_cfg.views/4BitAdder/SDL" 1 Eddm_design_viewpoint 581809800f61.03.81.d2.10.4c.01.28.85 581809800f61.03.81.d2.10.4c.00.28.85
+O 7
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout.views/FullAdder/FullAdder" 11 Ic_cell_template 5817fd909440.03.81.d2.10.4c.00.03.14 5817ed9f895d.03.81.d2.10.4c.00.58.6d
+R csduv 3 "$UpdatedFiles/default.group/layout_cfg.views/4BitAdder/SDL" 1 Eddm_design_viewpoint 581809800f61.03.81.d2.10.4c.01.28.85 581809800f61.03.81.d2.10.4c.00.28.85

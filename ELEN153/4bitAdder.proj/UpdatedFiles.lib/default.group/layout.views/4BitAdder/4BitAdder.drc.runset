@@ -1,0 +1,11 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal
+*drcLayoutPaths: 4BitAdder.calibre.db
+*drcLayoutPrimary: 4BitAdder
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: 4BitAdder.drc.results
+*drcSummaryFile: 4BitAdder.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: 4BitAdder
+*cmnFDIDEFLayoutPath: 4BitAdder.def

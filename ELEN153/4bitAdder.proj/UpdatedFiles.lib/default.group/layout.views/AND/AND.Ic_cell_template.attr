@@ -1,0 +1,26 @@
+A 5 u Ic_cell_template 518d8930b4b1.03.81.d2.10.8f.00.38.0d 52 4 3 0
+V v 48 1 519026363ae7.03.81.d2.10.4c.00.13.0b
+F f 48 "AND.iccel_48"
+V v 49 1 519026f18fa7.03.81.d2.10.4c.00.13.0b
+F f 49 "AND.iccel_49"
+V v 50 1 5190281ce7d8.03.81.d2.10.4c.00.49.75
+F f 50 "AND.iccel_50"
+V v 51 1 519029ea841b.03.81.d2.10.4c.00.51.e5
+F f 51 "AND.iccel_51"
+V v 52 1 51902d53825f.03.81.d2.10.4c.00.60.5b
+F f 52 "AND.iccel_52"
+O 52
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/AND/SDL" 1 Eddm_design_viewpoint 518e78520a6c.03.81.d2.10.9a.01.20.f1 518e78520a6c.03.81.d2.10.9a.00.20.f1
+O 51
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/AND/SDL" 1 Eddm_design_viewpoint 518e78520a6c.03.81.d2.10.9a.01.20.f1 518e78520a6c.03.81.d2.10.9a.00.20.f1
+O 50
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/AND/SDL" 1 Eddm_design_viewpoint 518e78520a6c.03.81.d2.10.9a.01.20.f1 518e78520a6c.03.81.d2.10.9a.00.20.f1
+O 49
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/AND/SDL" 1 Eddm_design_viewpoint 518e78520a6c.03.81.d2.10.9a.01.20.f1 518e78520a6c.03.81.d2.10.9a.00.20.f1
+O 48
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/AND/SDL" 1 Eddm_design_viewpoint 518e78520a6c.03.81.d2.10.9a.01.20.f1 518e78520a6c.03.81.d2.10.9a.00.20.f1

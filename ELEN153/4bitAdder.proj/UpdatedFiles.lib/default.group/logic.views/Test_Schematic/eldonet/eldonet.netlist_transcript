@@ -1,0 +1,52 @@
+// *************************************************************************
+// Warning: This Linux distribution is not supported.
+// 
+// Supported runtime operating systems for this 64 bit application are: 
+// RHEL 3  64 bit
+// RHEL 4  64 bit
+// RHEL 5  64 bit
+// SLES 9  64 bit
+// SLES 10 64 bit
+// *************************************************************************
+//  ICnet  v2008.1_1.1  Wed Apr 23 14:25:42 PDT 2008
+//  Core Libraries  v2008.1_1.1 Wed Apr 23 14:47:55 PDT 2008
+//
+//             Copyright Mentor Graphics Corporation 2006
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -eldo -o /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/logic.views/Test_Schematic/eldonet/Test_Schematic_eldonet.spi -check -upper -dmsfile /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/logic.views/Test_Schematic/eldonet/design.dms /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/logic.views/Test_Schematic/eldonet
+
+// **** Reading <$UpdatedFiles/default.group/logic.views/Test_Schematic/eldonet> for ELDO netlist ****
+
+// Checking 8 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [$UpdatedFiles/default.group/logic.views/Test_Schematic] [Test_Schematic/Test_Schematic] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf) (Param#1: i$619_dc=3.3v)
+Processing [$UpdatedFiles/default.group/logic.views/4-Bit-Adder] [4-Bit-Adder/4-Bit-Adder] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/Full-Adder] [Full-Adder/Full-Adder] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/OR] [OR/OR] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/Half-Adder] [Half-Adder/Half-Adder] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/153_XOR] [153_XOR/153_XOR] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/inverter] [inverter/inverter] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/AND] [AND/AND] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_DEVICE_LIB/nmos_4pin] [nmos_4pin/nmos_4pin] [SPICE=M] (NCF entry line:72 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf) (NCF entry line:169 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_DEVICE_LIB/pmos_4pin] [pmos_4pin/pmos_4pin] [SPICE=M] (NCF entry line:72 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf) (NCF entry line:169 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_SOURCES_LIB/pattern_v_source] [pattern_v_source/pattern_v_source] [SPICE=V] (NCF entry line:658 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_SOURCES_LIB/dc_v_source] [dc_v_source/dc_v_source] [SPICE=V] (NCF entry line:554 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+
+**** Writing <$UpdatedFiles/default.group/logic.views/Test_Schematic/eldonet> netlist for ELDO ****
+
+Number of cells: 12
+Number of primitive instances: 129
+
+Done...

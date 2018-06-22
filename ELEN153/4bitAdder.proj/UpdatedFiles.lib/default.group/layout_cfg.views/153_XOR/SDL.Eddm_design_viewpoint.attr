@@ -1,0 +1,19 @@
+A 5 u Eddm_design_viewpoint 580ea43d6e6d.03.81.d2.10.50.00.3e.e7 1 2 10 0
+V v 1 4 518e79386405.03.81.d2.10.9a.01.2d.88
+F f 1 "SDL.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/153_XOR/part" 4 Eddm_part 518d95c77350.03.81.d2.10.8f.00.69.88 518d95c46ee1.03.81.d2.10.8f.00.54.ba
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/153_XOR/schematic" 4 mgc_schematic 518e792f7804.03.81.d2.10.9a.00.32.6b 518d95c46ef9.03.81.d2.10.8f.00.54.ba
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/153_XOR/153_XOR" 1 mgc_symbol 4dec84e0585c.03.81.d2.10.4f.00.1c.bc 518d95c46ec9.03.81.d2.10.8f.00.54.ba
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 5 "$UpdatedFiles/default.group/logic.views/inverter/part" 4 Eddm_part 4d571b992997.03.81.d2.10.50.00.63.8d 518e762c4945.03.81.d2.10.9a.00.10.c1
+R cspuv 6 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b
+R cspuv 7 "$UpdatedFiles/default.group/logic.views/inverter/inverter" 7 mgc_symbol 4d571b977940.03.81.d2.10.50.00.61.cd 518e762c4900.03.81.d2.10.9a.00.10.c1
+R cspuv 8 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 8 mgc_schematic 4d3f6b36e2ac.03.81.d2.10.5c.00.29.82 518e762c4979.03.81.d2.10.9a.00.10.c1
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 9 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b

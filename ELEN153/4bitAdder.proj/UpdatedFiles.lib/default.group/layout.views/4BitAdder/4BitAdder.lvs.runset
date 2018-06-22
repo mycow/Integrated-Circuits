@@ -1,0 +1,10 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/4BitAdder/4BitAdder.cal
+*lvsLayoutPaths: 4BitAdder.calibre.gds
+*lvsLayoutPrimary: 4BitAdder
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: 4BitAdder.calibre.src.net
+*lvsSourcePrimary: 4BitAdder
+*lvsSourceGetFromViewer: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}

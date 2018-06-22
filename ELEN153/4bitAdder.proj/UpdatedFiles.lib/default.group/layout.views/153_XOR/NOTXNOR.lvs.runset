@@ -1,0 +1,10 @@
+*lvsRulesFile: /applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal
+*lvsLayoutPaths: NOTXNOR.calibre.gds
+*lvsLayoutPrimary: NOTXNOR
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: NOTXNOR.calibre.src.net
+*lvsSourcePrimary: NOTXNOR
+*lvsSourceGetFromViewer: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}

@@ -1,0 +1,100 @@
+* ELDO netlist generated with ICnet by 'mhao' on Mon Oct 24 2016 at 18:52:12
+
+*
+* Globals.
+*
+.global vdd ground
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/AND
+*
+.subckt and  out a b
+
+        m1 out n$4 ground ground N L=.4u W=1.2u M=1
+        m3 n$6 a ground ground N L=.4u W=2.4u M=1
+        m5 n$4 b n$6 ground N L=.4u W=2.4u M=1
+        m4 n$4 b vdd vdd P L=.4u W=2.4u M=1
+        m6 n$4 a vdd vdd P L=.4u W=2.4u M=1
+        m2 out n$4 vdd vdd P L=.4u W=2.4u M=1
+.ends and
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+.subckt inverter  out in
+
+        m2 out in vdd vdd P L=0.4u W=3.6u M=1
+        m1 out in ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153_XOR
+*
+.subckt 153_xor  xor a b
+
+        x_inverter1 xor n$3 inverter
+        m2 b a n$3 ground N L=0.4u W=1.2u M=2
+        m4 a b n$3 ground N L=0.4u W=1.2u M=2
+        m3 n$3 b n$2 vdd P L=0.4u W=2.4u M=2
+        m1 n$2 a vdd vdd P L=0.4u W=2.4u M=2
+.ends 153_xor
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/Half-Adder
+*
+.subckt half-adder  c s x y
+
+        x_and1 c y x and
+        x_153_xor1 s y x 153_xor
+.ends half-adder
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/OR
+*
+.subckt or  out a b
+
+        m3 n$12 a ground ground N L=.4u W=1.2u M=1
+        m1 n$12 b ground ground N L=.4u W=1.2u M=1
+        m6 out n$12 vdd vdd P L=.4u W=2.4u M=1
+        m5 out n$12 ground ground N L=.4u W=1.2u M=1
+        m4 n$12 b n$8 vdd P L=.4u W=4.8u M=1
+        m2 n$8 a vdd vdd P L=.4u W=4.8u M=1
+.ends or
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/Full-Adder
+*
+.subckt full-adder  cout sout cin xin yin
+
+        x_half-adder1 n$3 sout n$220 cin half-adder
+        x_half-adder3 n$2 n$220 xin yin half-adder
+        x_or1 cout n$2 n$3 or
+.ends full-adder
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/4-Bit-Adder
+*
+.subckt 4-bit-adder  cout s0 s1 s2 s3 cin x0 x1 x2 x3 y0 y1 y2 y3
+
+        x_full-adder1 n$440 s0 cin x0 y0 full-adder
+        x_full-adder5 cout s3 n$428 x3 y3 full-adder
+        x_full-adder6 n$428 s2 n$433 x2 y2 full-adder
+        x_full-adder7 n$433 s1 n$440 x1 y1 full-adder
+.ends 4-bit-adder
+
+*
+* MAIN CELL: Component pathname : $UpdatedFiles/default.group/logic.views/Test_Schematic
+*
+        v8 n$212 ground PATTERN 5 0 0 1n 1n 50n 11111101010
+        v7 n$207 ground PATTERN 5 0 0 1n 1n 50n 00000101010
+        v6 n$211 ground PATTERN 5 0 0 1n 1n 50n 01010111101
+        v5 n$205 ground PATTERN 5 0 0 1n 1n 50n 01010000101
+        v4 n$210 ground PATTERN 5 0 0 1n 1n 50n 11010010110
+        v3 n$213 ground PATTERN 5 0 0 1n 1n 50n 01011010010
+        v2 n$209 ground PATTERN 5 0 0 1n 1n 50n 01100110011
+        v1 n$202 ground PATTERN 5 0 0 1n 1n 50n 00110011001
+        v9 vdd ground DC 3.3V
+        x_4-bit-adder1 cout s0 s1 s2 s3 ground n$202 n$213 n$205 n$207 n$209
++ n$210 n$211 n$212 4-bit-adder
+*
+.end

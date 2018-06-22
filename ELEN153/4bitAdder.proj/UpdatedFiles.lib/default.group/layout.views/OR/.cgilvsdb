@@ -1,0 +1,10 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /DCNFS/users/student/tsongati/ELEN153.proj/LAB2.lib/default.group/layout.views/OR/OR.cal
+*lvsLayoutPaths: OR.calibre.gds
+*lvsLayoutPrimary: OR
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: OR.calibre.src.net
+*lvsSourcePrimary: OR
+*lvsSourceGetFromViewer: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}

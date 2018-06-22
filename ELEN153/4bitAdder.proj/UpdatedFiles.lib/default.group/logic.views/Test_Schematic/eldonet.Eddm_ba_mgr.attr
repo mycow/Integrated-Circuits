@@ -1,0 +1,13 @@
+A 5 u Eddm_ba_mgr 580eb150c141.03.81.d2.10.50.00.47.d4 2 2 3 0
+V v 1 1 580eb150c141.03.81.d2.10.50.01.47.d4
+F f 1 "eldonet.ba_1"
+V v 2 1 580eb785db07.03.81.d2.10.50.00.47.d4
+F f 2 "eldonet.ba_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/Test_Schematic/eldonet" 9 Eddm_design_viewpoint 580eb785d7f8.03.81.d2.10.50.00.47.d4 580eb150bc3b.03.81.d2.10.50.00.47.d4
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/Test_Schematic/schematic" 15 mgc_schematic 580eb6893141.03.81.d2.10.50.00.47.d4 580eac37db6e.03.81.d2.10.50.00.47.d4
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test_Schematic/eldonet" 1 Eddm_design_viewpoint 580eb150bc3c.03.81.d2.10.50.00.47.d4 580eb150bc3b.03.81.d2.10.50.00.47.d4

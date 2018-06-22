@@ -1,0 +1,26 @@
+* ELDO netlist generated with ICnet by 'rguyol' on Mon May 13 2013 at 16:34:38
+
+*
+* Globals.
+*
+.global vdd ground
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+.subckt inverter  out in
+
+        m2 out in vdd vdd P L=0.4u W=3.6u M=1
+        m1 out in ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* MAIN CELL: Component pathname : $UpdatedFiles/default.group/logic.views/XOR
+*
+        x_inverter1 xor n$3 inverter
+        m2 b a n$3 ground N L=0.4u W=1.2u M=2
+        m4 a b n$3 ground N L=0.4u W=1.2u M=2
+        m3 n$3 b n$2 vdd P L=0.4u W=2.4u M=2
+        m1 n$2 a vdd vdd P L=0.4u W=2.4u M=2
+*
+.end

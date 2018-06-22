@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 518d96200d23.03.81.d2.10.8f.00.54.ba 2 2 1 0
+V v 1 1 4fa995801185.03.81.d2.10.92.01.57.b0
+F o 0 ""
+V v 2 1 4fa996ffe784.03.81.d2.10.92.00.57.b0
+F o 0 ""
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/schematic/sheet1" 1 mgc_sheet 4fa9958030f4.03.81.d2.10.92.01.57.b0 518d96200d71.03.81.d2.10.8f.00.54.ba
+O 1
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/OR/schematic/sheet1" 1 mgc_sheet 4fa9958030f4.03.81.d2.10.92.01.57.b0 518d96200d71.03.81.d2.10.8f.00.54.ba
+P "eddm__refer_state" "eddm__refer_floating"

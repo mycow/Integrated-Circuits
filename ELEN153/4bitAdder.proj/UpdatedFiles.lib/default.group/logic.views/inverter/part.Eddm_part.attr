@@ -1,0 +1,16 @@
+A 5 u Eddm_part 518e762c4945.03.81.d2.10.9a.00.10.c1 4 2 3 0
+V v 2 1 4d571b956c56.03.81.d2.10.50.00.5f.c2
+F f 2 "part.part_2"
+V v 3 1 4d571b97794d.03.81.d2.10.50.00.61.cd
+F f 3 "part.part_3"
+V v 4 1 4d571b992997.03.81.d2.10.50.00.63.8d
+F f 4 "part.part_4"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 1 "$UpdatedFiles/default.group/logic.views/inverter/inverter" 7 mgc_symbol 4d571b977940.03.81.d2.10.50.00.61.cd 518e762c4900.03.81.d2.10.9a.00.10.c1
+R csduv 2 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 8 mgc_schematic 4d3f6b36e2ac.03.81.d2.10.5c.00.29.82 518e762c4979.03.81.d2.10.9a.00.10.c1
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 1 "$UpdatedFiles/default.group/logic.views/inverter/inverter" 7 mgc_symbol 4d571b977940.03.81.d2.10.50.00.61.cd 518e762c4900.03.81.d2.10.9a.00.10.c1
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"

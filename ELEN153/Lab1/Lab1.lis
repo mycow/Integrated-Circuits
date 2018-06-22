@@ -1,0 +1,10 @@
+Lab1
+
+Vds 1 0 DC 0
+Vgs 2 0 DC 0
+M1 1 2 0 NCH L=1.8u W=1.8u
+.model NCH NMOS (LEVEL=1)
+.DC Vds V 5V 0.1V Vgs 1V 5V 1V
+Plot Id(M1)
+
+.end

@@ -1,0 +1,20 @@
+* LVS netlist generated with ICnet by 'rguyol' on Mon May 13 2013 at 16:35:51
+
+*
+* Globals.
+*
+.global ground VDD
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/OR
+*
+.subckt OR  OUT A B
+
+        M3 N$12 A ground ground N L=.4u W=1.2u M=1
+        M1 N$12 B ground ground N L=.4u W=1.2u M=1
+        M6 OUT N$12 VDD VDD P L=.4u W=2.4u M=1
+        M5 OUT N$12 ground ground N L=.4u W=1.2u M=1
+        M4 N$12 B N$8 VDD P L=.4u W=4.8u M=1
+        M2 N$8 A VDD VDD P L=.4u W=4.8u M=1
+.ends OR
+

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5817e998ad1b.03.81.d2.10.4c.00.34.53 4 2 1 0
+V v 2 1 580ea72702ae.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 3 1 580eab747399.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 4 1 580eb12e7f35.03.81.d2.10.50.00.47.d4
+F o 0 ""
+O 4
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic/sheet1" 3 mgc_sheet 580eb12e7c85.03.81.d2.10.50.00.47.d4 5817e998ad38.03.81.d2.10.4c.00.34.53
+O 3
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic/sheet1" 2 mgc_sheet 580eab746ea0.03.81.d2.10.50.00.47.d4 5817e998ad38.03.81.d2.10.4c.00.34.53
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic/sheet1" 1 mgc_sheet 580ea57faaec.03.81.d2.10.50.01.47.d4 5817e998ad38.03.81.d2.10.4c.00.34.53

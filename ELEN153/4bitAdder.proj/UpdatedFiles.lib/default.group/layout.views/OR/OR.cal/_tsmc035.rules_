@@ -1,0 +1,112 @@
+//
+//  Rule file generated on Mon May 13 16:35:29 PDT 2013
+//     by Calibre Interactive - DRC (v2008.2_33.26)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "OR.calibre.db"
+LAYOUT PRIMARY "OR"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "OR.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "OR.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC SELECT CHECK
+	"bad_active_area"
+	"bad_contact_poly"
+	"bad_contact_ELECTRODE"
+	"bad_contact_active"
+	"bad_contact_gate"
+	"bad_via"
+	"bad_via2"
+	"bad_via3"
+	"select_overlap"
+	"bad_nwell"
+	"bad_psubstrate"
+	"bad_pgate"
+	"bad_ngate"
+	"bad_port"
+	"DRC1_1"
+	"DRC1_2"
+	"DRC2_1"
+	"DRC2_2"
+	"DRC2_3"
+	"DRC2_4"
+	"DRC3_1"
+	"DRC3_2"
+	"DRC3_3"
+	"DRC3_4"
+	"DRC3_5"
+	"DRC4.1p"
+	"DRC4.1n"
+	"DRC4.2"
+	"DRC4.3p"
+	"DRC4.3n"
+	"DRC4.4pw"
+	"DRC4.4ps"
+	"DRC4.4nw"
+	"DRC4.4ns"
+	"DRC4.4np"
+	"DRC5_1"
+	"DRC5_2"
+	"DRC5_3"
+	"DRC5_4"
+	"DRC6_1"
+	"DRC6_2"
+	"DRC6_3"
+	"DRC6_4"
+	"DRC7_1"
+	"DRC7_2"
+	"DRC7_3"
+	"DRC7_4"
+	"DRC8_1"
+	"DRC8_2"
+	"DRC8_3"
+	"DRC9_1"
+	"DRC9_2"
+	"DRC9_3"
+	"DRC9_4"
+	"DRC11_1"
+	"DRC11_2"
+	"DRC11_3"
+	"DRC11_4"
+	"DRC11_5"
+	"DRC11_sel"
+	"DRC12_1"
+	"DRC12_2"
+	"DRC13_1"
+	"DRC13_2"
+	"DRC13_3"
+	"DRC13_4"
+	"DRC13_5"
+	"DRC14_1"
+	"DRC14_2"
+	"DRC14_3"
+	"DRC15_1"
+	"DRC15_2"
+	"DRC15_3"
+	"DRC15_4"
+	"DRC21_1"
+	"DRC21_2"
+	"DRC21_3"
+	"DRC22_1"
+	"DRC22_2"
+	"DRC22_3"
+	"DRC22_4"
+
+#IFDEF $MGC_CALIBRE_INTERACTIVE
+   DRC ICSTATION YES
+#ENDIF
+
+
+INCLUDE "/opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules"
+

@@ -1,0 +1,13 @@
+* Component: $UpdatedFiles/default.group/logic.views/Test_Schematic  Viewpoint: eldonet
+.INCLUDE Test_Schematic_eldonet.spi
+.LIB $MGC_DESIGN_KIT/technology/ic/models/tsmc035.mod
+.PLOT TRAN  V(COUT)  V(S3)  V(S2)  V(S1)  V(S0) 
+.PLOT TRAN  V(N$212)  V(N$207)  V(N$211)  V(N$205)  V(N$210)  V(N$213)  V(N$209)  V(N$202) 
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+.OPTION LIMPROBE = 10000
+.TRAN  0 600ns 0.1ns 1ns

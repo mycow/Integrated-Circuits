@@ -1,0 +1,11 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/Half-Adder/Half-Adder.cal
+*drcLayoutPaths: Half-Adder.calibre.db
+*drcLayoutPrimary: Half-Adder
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: Half-Adder.drc.results
+*drcSummaryFile: Half-Adder.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: Half-Adder
+*cmnFDIDEFLayoutPath: Half-Adder.def

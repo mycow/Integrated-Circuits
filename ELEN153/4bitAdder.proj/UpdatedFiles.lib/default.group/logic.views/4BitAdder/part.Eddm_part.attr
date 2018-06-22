@@ -1,0 +1,18 @@
+A 5 u Eddm_part 5817e9afacfc.03.81.d2.10.4c.00.34.53 3 2 2 0
+V v 1 1 580eaa5f769f.03.81.d2.10.50.01.47.d4
+F f 1 "part.part_1"
+V v 2 1 580eab51cfc0.03.81.d2.10.50.00.47.d4
+F f 2 "part.part_2"
+V v 3 1 5817e9b18bda.03.81.d2.10.4c.00.4b.52
+F f 3 "part.part_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic" 1 mgc_schematic 580ea9b83134.03.81.d2.10.50.01.47.d4 5817e9afac63.03.81.d2.10.4c.00.34.53
+R csduv 1 "$UpdatedFiles/default.group/logic.views/4BitAdder/4BitAdder" 1 mgc_symbol 580eab51c450.03.81.d2.10.50.01.47.d4 5817e9afad1f.03.81.d2.10.4c.00.34.53
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic" 1 mgc_schematic 580ea9b83134.03.81.d2.10.50.01.47.d4 5817e9afac63.03.81.d2.10.4c.00.34.53
+R csduv 1 "$UpdatedFiles/default.group/logic.views/4BitAdder/4BitAdder" 1 mgc_symbol 580eab51c450.03.81.d2.10.50.01.47.d4 5817e9afad1f.03.81.d2.10.4c.00.34.53
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic" 1 mgc_schematic 580ea9b83134.03.81.d2.10.50.01.47.d4 5817e9afac63.03.81.d2.10.4c.00.34.53

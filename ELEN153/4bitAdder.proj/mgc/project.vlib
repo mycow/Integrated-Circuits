@@ -1,0 +1,55 @@
+<!DOCTYPE ICstudioLocMap>
+<locmap type="project" >
+ <entries>
+  <library name="MGC_IC_GENERIC_LIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/generic_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_DEVICE_LIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/device_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_SOURCES_LIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/sources_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_VERILOG_LIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_verilog</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_commlib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB_QS" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_qs</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB_RF" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_rf</location>
+   </locations>
+  </library>
+  <library name="MGC_MACROLIB" >
+   <locations>
+    <location>/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_macrolib</location>
+   </locations>
+  </library>
+  <library name="MGC_DESIGN_KIT" >
+   <locations>
+    <location>/opt/mentor-2008.1/adk3_1</location>
+   </locations>
+  </library>
+  <library name="UpdatedFiles" >
+   <locations>
+    <location>UpdatedFiles.lib</location>
+   </locations>
+  </library>
+ </entries>
+</locmap>

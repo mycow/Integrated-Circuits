@@ -1,0 +1,21 @@
+A 5 u Ic_cell_template 518e762ccb7a.03.81.d2.10.9a.00.10.c1 18 4 2 0
+V v 14 1 4d6de82c225f.03.81.d2.10.59.00.3b.30
+F f 14 "inverter.iccel_14"
+V v 15 1 4d70463f7788.03.81.d2.10.5d.00.34.d0
+F f 15 "inverter.iccel_15"
+V v 16 1 518d82b3e560.03.81.d2.10.8f.00.3a.23
+F f 16 "inverter.iccel_16"
+V v 17 1 518d8819667a.03.81.d2.10.8f.00.3a.b1
+F f 17 "inverter.iccel_17"
+V v 18 1 518df87d1215.03.81.d2.10.4e.00.09.30
+F f 18 "inverter.iccel_18"
+O 18
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+O 17
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+O 16
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+O 15
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+O 14
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa

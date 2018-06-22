@@ -1,0 +1,9 @@
+Lab1
+.option post=1
+Vds 1 0
+Vgs 2 0
+M1 1 2 0 NCH L=1.8u W=18u
+.model NCH NMOS (LEVEL=1)
+.DC Vds 0 5 0.1 Vgs 1 5 1
+.plot Id(M1)
+.end

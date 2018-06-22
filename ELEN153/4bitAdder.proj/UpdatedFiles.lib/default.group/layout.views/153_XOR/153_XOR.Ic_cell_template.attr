@@ -1,0 +1,26 @@
+A 5 u Ic_cell_template 580ea43a318b.03.81.d2.10.50.00.3e.e7 34 4 3 0
+V v 30 1 5190281d1072.03.81.d2.10.4c.00.49.75
+F f 30 "153_XOR.iccel_30"
+V v 31 1 51902940c6f8.03.81.d2.10.4c.00.51.e5
+F f 31 "153_XOR.iccel_31"
+V v 32 1 519029ea9ca8.03.81.d2.10.4c.00.51.e5
+F f 32 "153_XOR.iccel_32"
+V v 33 1 51902d2909b1.03.81.d2.10.4c.00.60.5b
+F f 33 "153_XOR.iccel_33"
+V v 34 1 51902d539c4c.03.81.d2.10.4c.00.60.5b
+F f 34 "153_XOR.iccel_34"
+O 34
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/153_XOR/SDL" 1 Eddm_design_viewpoint 518e79386405.03.81.d2.10.9a.01.2d.88 518e79386405.03.81.d2.10.9a.00.2d.88
+O 33
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/153_XOR/SDL" 1 Eddm_design_viewpoint 518e79386405.03.81.d2.10.9a.01.2d.88 518e79386405.03.81.d2.10.9a.00.2d.88
+O 32
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/153_XOR/SDL" 1 Eddm_design_viewpoint 518e79386405.03.81.d2.10.9a.01.2d.88 518e79386405.03.81.d2.10.9a.00.2d.88
+O 31
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/153_XOR/SDL" 1 Eddm_design_viewpoint 518e79386405.03.81.d2.10.9a.01.2d.88 518e79386405.03.81.d2.10.9a.00.2d.88
+O 30
+R csduv 1 "/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/153_XOR/SDL" 1 Eddm_design_viewpoint 518e79386405.03.81.d2.10.9a.01.2d.88 518e79386405.03.81.d2.10.9a.00.2d.88

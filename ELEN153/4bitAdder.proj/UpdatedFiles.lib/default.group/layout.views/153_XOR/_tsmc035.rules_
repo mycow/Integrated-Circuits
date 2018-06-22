@@ -1,0 +1,29 @@
+//
+//  Rule file generated on Mon Jun 06 01:28:33 PDT 2011
+//     by Calibre Interactive - DRC (v2008.2_33.26)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/.NOTXNOR.bin"
+LAYOUT PRIMARY "NOTXNOR"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "/users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "drc.summary" REPLACE 
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+#IFDEF $MGC_CALIBRE_INTERACTIVE
+   DRC ICSTATION YES
+#ENDIF
+
+
+INCLUDE "/opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules"
+

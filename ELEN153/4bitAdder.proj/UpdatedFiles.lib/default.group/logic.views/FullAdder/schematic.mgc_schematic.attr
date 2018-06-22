@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5817e9a0e51a.03.81.d2.10.4c.00.34.53 4 2 1 0
+V v 2 1 580eabdc75b4.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 3 1 580eb33137c3.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 4 1 5817faecca0e.03.81.d2.10.4c.00.02.de
+F o 0 ""
+O 4
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 3 mgc_sheet 5817faecc171.03.81.d2.10.4c.00.02.de 5817e9a0e54b.03.81.d2.10.4c.00.34.53
+O 3
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 2 mgc_sheet 580eb33130e8.03.81.d2.10.50.00.47.d4 5817e9a0e54b.03.81.d2.10.4c.00.34.53
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 1 mgc_sheet 580ea7b47968.03.81.d2.10.50.01.47.d4 5817e9a0e54b.03.81.d2.10.4c.00.34.53

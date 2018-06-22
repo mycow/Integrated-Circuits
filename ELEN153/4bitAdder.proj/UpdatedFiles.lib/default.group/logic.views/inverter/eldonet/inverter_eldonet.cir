@@ -1,0 +1,8 @@
+* Component: $UpdatedFiles/default.group/logic.views/inverter  Viewpoint: eldonet
+.INCLUDE inverter_eldonet.spi
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

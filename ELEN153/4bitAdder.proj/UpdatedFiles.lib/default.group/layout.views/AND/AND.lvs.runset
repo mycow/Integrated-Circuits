@@ -1,0 +1,11 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /DCNFS/users/student/rguyol/UpdatedELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/AND/AND.cal
+*lvsLayoutPaths: AND.calibre.gds
+*lvsLayoutPrimary: AND
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: AND.lvs.results
+*lvsSummaryFile: AND.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: AND.calibre.src.net
+*lvsSourcePrimary: AND

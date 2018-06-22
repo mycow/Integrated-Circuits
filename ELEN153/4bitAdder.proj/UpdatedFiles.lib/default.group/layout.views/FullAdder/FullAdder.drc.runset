@@ -1,0 +1,11 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/FullAdder/FullAdder.cal
+*drcLayoutPaths: FullAdder.calibre.db
+*drcLayoutPrimary: FullAdder
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: FullAdder.drc.results
+*drcSummaryFile: FullAdder.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: FullAdder
+*cmnFDIDEFLayoutPath: FullAdder.def

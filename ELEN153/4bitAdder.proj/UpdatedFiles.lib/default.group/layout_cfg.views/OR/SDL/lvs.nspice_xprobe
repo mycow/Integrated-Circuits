@@ -1,0 +1,43 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground ground
+   VDD VDD
+End Globals
+
+Cell nmos_4pin
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell pmos_4pin
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell #top#
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$12 N$12
+   Net N$8 N$8
+   Net A A
+   Net B B
+   Net OUT OUT
+   Global ground ground
+   Global VDD VDD
+   Inst M3 M3 nmos_4pin
+   Inst M1 M1 nmos_4pin
+   Inst M6 M6 pmos_4pin
+   Inst M5 M5 nmos_4pin
+   Inst M4 M4 pmos_4pin
+   Inst M2 M2 pmos_4pin
+End Cell
+

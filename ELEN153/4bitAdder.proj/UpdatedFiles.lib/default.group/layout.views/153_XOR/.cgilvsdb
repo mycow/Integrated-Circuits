@@ -1,0 +1,10 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /DCNFS/users/student/tsongati/ELEN153.proj/LAB2.lib/default.group/layout.views/elen153XOR/elen153XOR.cal
+*lvsLayoutPaths: elen153XOR.calibre.gds
+*lvsLayoutPrimary: elen153XOR
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: elen153XOR.calibre.src.net
+*lvsSourcePrimary: elen153XOR
+*lvsSourceGetFromViewer: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}

@@ -1,0 +1,10 @@
+#!/bin/sh
+MGC_HOME=/opt/mentor-2008.1/linux/calibre/ixl_cal_2008.2_33.26 ; export MGC_HOME
+$MGC_HOME/bin/calibre -gui -drc -drcLayoutPaths $FInalproject/default.group/layout.views/NOTXNOR/NOTXNOR.cal/.NOTXNOR.bin -drcRulesFile /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules -drcResultsFile $FInalproject/default.group/layout.views/NOTXNOR/NOTXNOR.cal/NOTXNOR.drc.results -drcLayoutPrimary NOTXNOR -runset /dev/null -cmnRunHier 0 -batch  > /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/drc.log
+rm /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/.NOTXNOR.bin
+result_count=`grep "TOTAL RESULTS" /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal/drc.log | awk '{ print $6 }'`
+if [ "$result_count" = "" ]; then
+result_count=-1
+fi
+MGC_HOME=/opt/mentor-2008.1/linux/ic_flow/2008.1_rhelx86linux/icflow_home ; export MGC_HOME
+$MGC_HOME/bin/send2ic 9189 calibre_drc_done_rve /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR /users/student/tsongati/inverter.proj/FInalproject.lib/default.group/layout.views/NOTXNOR/NOTXNOR.cal $result_count

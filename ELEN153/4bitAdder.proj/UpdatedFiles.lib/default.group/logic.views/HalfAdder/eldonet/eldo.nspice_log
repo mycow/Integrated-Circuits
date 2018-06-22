@@ -1,0 +1,36 @@
+//  ICnet  v2008.1_1.1  Wed Apr 23 14:25:42 PDT 2008
+//  Core Libraries  v2008.1_1.1 Wed Apr 23 14:47:55 PDT 2008
+//
+//             Copyright Mentor Graphics Corporation 2006
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -force /home/mhao/ELEN153/4bitAdder.proj/UpdatedFiles.lib/default.group/logic.views/Half-Adder/eldonet
+
+// **** Reading <$UpdatedFiles/default.group/logic.views/Half-Adder/eldonet> for ELDO netlist ****
+
+// Checking 4 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [$UpdatedFiles/default.group/logic.views/Half-Adder] [Half-Adder/Half-Adder] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/153_XOR] [153_XOR/153_XOR] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/inverter] [inverter/inverter] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Processing [$UpdatedFiles/default.group/logic.views/AND] [AND/AND] [schematic] (NCF entry line:17 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_DEVICE_LIB/nmos_4pin] [nmos_4pin/nmos_4pin] [SPICE=M] (NCF entry line:72 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf) (NCF entry line:169 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+Primitive [$MGC_IC_DEVICE_LIB/pmos_4pin] [pmos_4pin/pmos_4pin] [SPICE=M] (NCF entry line:72 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf) (NCF entry line:169 file:/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf)
+
+**** Writing <$UpdatedFiles/default.group/logic.views/Half-Adder/eldonet> netlist for ELDO ****
+
+Number of cells: 6
+Number of primitive instances: 12
+
+Done...

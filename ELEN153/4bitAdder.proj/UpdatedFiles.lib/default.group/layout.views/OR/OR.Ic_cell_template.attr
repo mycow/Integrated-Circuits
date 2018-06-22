@@ -1,0 +1,26 @@
+A 5 u Ic_cell_template 518d9620791f.03.81.d2.10.8f.00.54.ba 20 4 3 0
+V v 16 1 519021a86a75.03.81.d2.10.4c.00.13.0b
+F f 16 "OR.iccel_16"
+V v 17 1 519026f16df4.03.81.d2.10.4c.00.13.0b
+F f 17 "OR.iccel_17"
+V v 18 1 5190281d03e3.03.81.d2.10.4c.00.49.75
+F f 18 "OR.iccel_18"
+V v 19 1 519029ea9013.03.81.d2.10.4c.00.51.e5
+F f 19 "OR.iccel_19"
+V v 20 1 51902d538f68.03.81.d2.10.4c.00.60.5b
+F f 20 "OR.iccel_20"
+O 20
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/OR/SDL" 1 Eddm_design_viewpoint 519021b60b87.03.81.d2.10.4c.01.13.0b 519021b60b87.03.81.d2.10.4c.00.13.0b
+O 19
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/OR/SDL" 1 Eddm_design_viewpoint 519021b60b87.03.81.d2.10.4c.01.13.0b 519021b60b87.03.81.d2.10.4c.00.13.0b
+O 18
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/OR/SDL" 1 Eddm_design_viewpoint 519021b60b87.03.81.d2.10.4c.01.13.0b 519021b60b87.03.81.d2.10.4c.00.13.0b
+O 17
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/OR/SDL" 1 Eddm_design_viewpoint 519021b60b87.03.81.d2.10.4c.01.13.0b 519021b60b87.03.81.d2.10.4c.00.13.0b
+O 16
+R csduv 1 "$MGC_DESIGN_KIT/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$UpdatedFiles/default.group/layout_cfg.views/OR/SDL" 1 Eddm_design_viewpoint 4fa9978b5210.03.81.d2.10.92.01.65.c0 518d96211eba.03.81.d2.10.8f.00.54.ba

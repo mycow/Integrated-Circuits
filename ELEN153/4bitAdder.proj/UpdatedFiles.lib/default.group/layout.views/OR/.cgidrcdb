@@ -1,0 +1,11 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /DCNFS/users/student/tsongati/ELEN153.proj/LAB2.lib/default.group/layout.views/OR/OR.cal
+*drcLayoutPaths: OR.calibre.db
+*drcLayoutPrimary: OR
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: OR.drc.results
+*drcSummaryFile: OR.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: OR
+*cmnFDIDEFLayoutPath: OR.def

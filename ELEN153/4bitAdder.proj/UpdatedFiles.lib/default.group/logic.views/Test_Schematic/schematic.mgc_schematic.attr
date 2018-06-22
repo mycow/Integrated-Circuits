@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 580eac37db6e.03.81.d2.10.50.00.47.d4 16 2 1 0
+V v 14 1 580eb3df59a5.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 15 1 580eb6893141.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 16 1 580eb7d9f084.03.81.d2.10.50.00.47.d4
+F o 0 ""
+O 16
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test_Schematic/schematic/sheet1" 15 mgc_sheet 580eb7d9eb73.03.81.d2.10.50.00.47.d4 580eac37f18c.03.81.d2.10.50.00.47.d4
+O 15
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test_Schematic/schematic/sheet1" 14 mgc_sheet 580eb6892aec.03.81.d2.10.50.00.47.d4 580eac37f18c.03.81.d2.10.50.00.47.d4
+O 14
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test_Schematic/schematic/sheet1" 13 mgc_sheet 580eb3df538f.03.81.d2.10.50.00.47.d4 580eac37f18c.03.81.d2.10.50.00.47.d4

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5817e9afac63.03.81.d2.10.4c.00.34.53 9 2 1 0
+V v 7 1 580eb2ede02a.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 8 1 580eb3420e10.03.81.d2.10.50.00.47.d4
+F o 0 ""
+V v 9 1 5817fdeacc4c.03.81.d2.10.4c.00.10.3a
+F o 0 ""
+O 9
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic/sheet1" 8 mgc_sheet 5817fdeac485.03.81.d2.10.4c.00.10.3a 5817e9afaca0.03.81.d2.10.4c.00.34.53
+O 8
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic/sheet1" 7 mgc_sheet 580eb3420772.03.81.d2.10.50.00.47.d4 5817e9afaca0.03.81.d2.10.4c.00.34.53
+O 7
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic/sheet1" 6 mgc_sheet 580eb2eddb41.03.81.d2.10.50.00.47.d4 5817e9afaca0.03.81.d2.10.4c.00.34.53

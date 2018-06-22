@@ -1,0 +1,11 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /DCNFS/users/student/rguyol/153Lab/4bit_add.proj/LAB2.lib/default.group/layout.views/inverter/inverter.cal
+*lvsLayoutPaths: inverter.calibre.gds
+*lvsLayoutPrimary: inverter
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: inverter.lvs.results
+*lvsSummaryFile: inverter.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: inverter.calibre.src.net
+*lvsSourcePrimary: inverter

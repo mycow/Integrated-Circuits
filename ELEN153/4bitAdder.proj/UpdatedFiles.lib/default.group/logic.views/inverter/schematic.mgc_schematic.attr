@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 518e762c4979.03.81.d2.10.9a.00.10.c1 11 2 1 0
+V v 9 1 4d571b99559f.03.81.d2.10.50.00.63.8d
+F o 0 ""
+V v 10 1 4d598c409d6f.03.81.d2.10.5c.00.5a.bb
+F o 0 ""
+V v 11 1 4df13a3abede.03.81.d2.10.4f.00.52.b5
+F o 0 ""
+O 11
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/inverter/schematic/sheet1" 10 mgc_sheet 4df13a3ab42d.03.81.d2.10.4f.00.52.b5 518e762c4be8.03.81.d2.10.9a.00.10.c1
+O 10
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/inverter/schematic/sheet1" 9 mgc_sheet 4d598c408af2.03.81.d2.10.5c.00.5a.bb 518e762c4be8.03.81.d2.10.9a.00.10.c1
+O 9
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/inverter/schematic/sheet1" 8 mgc_sheet 4d571b994631.03.81.d2.10.50.00.63.8d 518e762c4be8.03.81.d2.10.9a.00.10.c1

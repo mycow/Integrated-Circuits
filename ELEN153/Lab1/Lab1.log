@@ -1,0 +1,22 @@
+Using: /usr/bin/time -p /applications/synopsys/2010.03/hspice/hspice/linux/hspice Lab1.lis
+ ****** HSPICE -- D-2010.03 32-BIT (Feb 23 2010) linux ******                   
+  Copyright (C) 2010 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: Lab1.lis                                                          
+ lic:  
+ lic: FLEXlm: v8.5b 
+ lic: USER:   mhao                 HOSTNAME: linux60817 
+ lic: HOSTID: 3417ebbc89f1         PID:      31611 
+ lic: Using FLEXlm license file: 
+ lic: 27000@hoth 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 13-oct-2017/2016.06 
+ lic: FLOATING license(s) on SERVER hoth 
+ lic:   
+ Init: read install configuration file: /applications/synopsys/2010.03/hspice/hspice/meta.cfg
+ **error** invalid memory reference
+

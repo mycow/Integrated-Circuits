@@ -1,0 +1,63 @@
+A 5 u Eddm_design_viewpoint 580ea4396b47.03.81.d2.10.50.00.3e.e7 9 2 38 0
+V v 7 4 518e78f31b47.03.81.d2.10.9a.00.27.68
+F f 7 "eldonet.dvpt_7"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 8 4 5191788dedd2.03.81.d2.10.90.00.1a.c9
+F f 8 "eldonet.dvpt_8"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 9 4 51917890b330.03.81.d2.10.90.00.1a.c9
+F f 9 "eldonet.dvpt_9"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/153_XOR/part" 4 Eddm_part 518d95c77350.03.81.d2.10.8f.00.69.88 580ea4396ba7.03.81.d2.10.50.00.3e.e7
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/153_XOR/schematic" 5 mgc_schematic 5191788db186.03.81.d2.10.90.00.1a.c9 580ea4396bbc.03.81.d2.10.50.00.3e.e7
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/153_XOR/eldonet" 1 Eddm_ba_mgr 4dec846b6b15.03.81.d2.10.4f.00.1c.bc 580ea4396b90.03.81.d2.10.50.00.3e.e7
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 19 "$UpdatedFiles/default.group/logic.views/inverter/part" 4 Eddm_part 4d571b992997.03.81.d2.10.50.00.63.8d 518e762c4945.03.81.d2.10.9a.00.10.c1
+R cspuv 20 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b
+R cspuv 22 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 11 mgc_schematic 4df13a3abede.03.81.d2.10.4f.00.52.b5 518e762c4979.03.81.d2.10.9a.00.10.c1
+R cspuv 23 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b
+R cspuv 28 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R cspuv 29 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R cspuv 30 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R cspuv 31 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/153_XOR/part" 4 Eddm_part 518d95c77350.03.81.d2.10.8f.00.69.88 580ea4396ba7.03.81.d2.10.50.00.3e.e7
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/153_XOR/schematic" 5 mgc_schematic 5191788db186.03.81.d2.10.90.00.1a.c9 580ea4396bbc.03.81.d2.10.50.00.3e.e7
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/153_XOR/eldonet" 1 Eddm_ba_mgr 4dec846b6b15.03.81.d2.10.4f.00.1c.bc 580ea4396b90.03.81.d2.10.50.00.3e.e7
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 19 "$UpdatedFiles/default.group/logic.views/inverter/part" 4 Eddm_part 4d571b992997.03.81.d2.10.50.00.63.8d 518e762c4945.03.81.d2.10.9a.00.10.c1
+R cspuv 20 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b
+R cspuv 22 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 11 mgc_schematic 4df13a3abede.03.81.d2.10.4f.00.52.b5 518e762c4979.03.81.d2.10.9a.00.10.c1
+R cspuv 23 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b
+R cspuv 28 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R cspuv 29 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R cspuv 30 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R cspuv 31 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R cspuv 32 "$UpdatedFiles/default.group/logic.views/153_XOR/153_XOR" 1 mgc_symbol 4dec84e0585c.03.81.d2.10.4f.00.1c.bc 580ea4396c07.03.81.d2.10.50.00.3e.e7
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/153_XOR/part" 4 Eddm_part 518d95c77350.03.81.d2.10.8f.00.69.88 580ea4396ba7.03.81.d2.10.50.00.3e.e7
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/153_XOR/schematic" 3 mgc_schematic 518e78ed8c69.03.81.d2.10.9a.00.27.68 580ea4396bbc.03.81.d2.10.50.00.3e.e7
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/153_XOR/eldonet" 1 Eddm_ba_mgr 4dec846b6b15.03.81.d2.10.4f.00.1c.bc 580ea4396b90.03.81.d2.10.50.00.3e.e7
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 19 "$UpdatedFiles/default.group/logic.views/inverter/part" 4 Eddm_part 4d571b992997.03.81.d2.10.50.00.63.8d 518e762c4945.03.81.d2.10.9a.00.10.c1
+R cspuv 20 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b
+R cspuv 22 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 11 mgc_schematic 4df13a3abede.03.81.d2.10.4f.00.52.b5 518e762c4979.03.81.d2.10.9a.00.10.c1
+R cspuv 23 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b
+R cspuv 28 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R cspuv 29 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R cspuv 30 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R cspuv 31 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
